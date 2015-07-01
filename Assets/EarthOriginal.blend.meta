@@ -1,0 +1,351 @@
+fileFormatVersion: 2
+guid: c14b77c69e2ef4043b9cfd43c42e92f9
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: BrownEarth
+    100002: Door1
+    100004: Door2
+    100006: Door3
+    100008: Door4
+    100010: DoorFrame1
+    100012: DoorFrame2
+    100014: DoorFrame3
+    100016: DoorFrame4
+    100018: //RootNode
+    100020: EarthShell
+    100022: FacePlate
+    100024: GreenEarth
+    100026: MonoTrack
+    100028: Rail1
+    100030: Rail10
+    100032: Rail11
+    100034: Rail12
+    100036: Rail14
+    100038: Rail15
+    100040: Rail16
+    100042: Rail17
+    100044: Rail18
+    100046: Rail19
+    100048: Rail2
+    100050: Rail20
+    100052: Rail21
+    100054: Rail22
+    100056: Rail23
+    100058: Rail24
+    100060: Rail3
+    100062: Rail4
+    100064: Rail5
+    100066: Rail6
+    100068: Rail7
+    100070: Rail8
+    100072: Rail9
+    100074: Reail13
+    400000: BrownEarth
+    400002: Door1
+    400004: Door2
+    400006: Door3
+    400008: Door4
+    400010: DoorFrame1
+    400012: DoorFrame2
+    400014: DoorFrame3
+    400016: DoorFrame4
+    400018: //RootNode
+    400020: EarthShell
+    400022: FacePlate
+    400024: GreenEarth
+    400026: MonoTrack
+    400028: Rail1
+    400030: Rail10
+    400032: Rail11
+    400034: Rail12
+    400036: Rail14
+    400038: Rail15
+    400040: Rail16
+    400042: Rail17
+    400044: Rail18
+    400046: Rail19
+    400048: Rail2
+    400050: Rail20
+    400052: Rail21
+    400054: Rail22
+    400056: Rail23
+    400058: Rail24
+    400060: Rail3
+    400062: Rail4
+    400064: Rail5
+    400066: Rail6
+    400068: Rail7
+    400070: Rail8
+    400072: Rail9
+    400074: Reail13
+    2300000: BrownEarth
+    2300002: Door1
+    2300004: Door2
+    2300006: Door3
+    2300008: Door4
+    2300010: DoorFrame1
+    2300012: DoorFrame2
+    2300014: DoorFrame3
+    2300016: DoorFrame4
+    2300018: EarthShell
+    2300020: FacePlate
+    2300022: GreenEarth
+    2300024: MonoTrack
+    2300026: Rail1
+    2300028: Rail10
+    2300030: Rail11
+    2300032: Rail12
+    2300034: Rail14
+    2300036: Rail15
+    2300038: Rail16
+    2300040: Rail17
+    2300042: Rail18
+    2300044: Rail19
+    2300046: Rail2
+    2300048: Rail20
+    2300050: Rail21
+    2300052: Rail22
+    2300054: Rail23
+    2300056: Rail24
+    2300058: Rail3
+    2300060: Rail4
+    2300062: Rail5
+    2300064: Rail6
+    2300066: Rail7
+    2300068: Rail8
+    2300070: Rail9
+    2300072: Reail13
+    3300000: BrownEarth
+    3300002: Door1
+    3300004: Door2
+    3300006: Door3
+    3300008: Door4
+    3300010: DoorFrame1
+    3300012: DoorFrame2
+    3300014: DoorFrame3
+    3300016: DoorFrame4
+    3300018: EarthShell
+    3300020: FacePlate
+    3300022: GreenEarth
+    3300024: MonoTrack
+    3300026: Rail1
+    3300028: Rail10
+    3300030: Rail11
+    3300032: Rail12
+    3300034: Rail14
+    3300036: Rail15
+    3300038: Rail16
+    3300040: Rail17
+    3300042: Rail18
+    3300044: Rail19
+    3300046: Rail2
+    3300048: Rail20
+    3300050: Rail21
+    3300052: Rail22
+    3300054: Rail23
+    3300056: Rail24
+    3300058: Rail3
+    3300060: Rail4
+    3300062: Rail5
+    3300064: Rail6
+    3300066: Rail7
+    3300068: Rail8
+    3300070: Rail9
+    3300072: Reail13
+    4300000: Rail24
+    4300002: Rail23
+    4300004: Rail22
+    4300006: Rail21
+    4300008: Rail20
+    4300010: Rail19
+    4300012: Rail18
+    4300014: Rail17
+    4300016: Rail16
+    4300018: Rail15
+    4300020: Rail14
+    4300022: Reail13
+    4300024: Rail12
+    4300026: Rail11
+    4300028: Rail10
+    4300030: Rail9
+    4300032: Rail8
+    4300034: Rail7
+    4300036: Rail6
+    4300038: Rail5
+    4300040: Rail4
+    4300042: Rail3
+    4300044: Rail2
+    4300046: Rail1
+    4300048: MonoTrack
+    4300050: EarthShell
+    4300052: FacePlate
+    4300054: Door2
+    4300056: DoorFrame4
+    4300058: DoorFrame3
+    4300060: Door4
+    4300062: Door1
+    4300064: DoorFrame2
+    4300066: GreenEarth
+    4300068: BrownEarth
+    4300070: DoorFrame1
+    4300072: Door3
+    7400000: Earth Doors
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Earth Doors
+      takeName: Default Take
+      firstFrame: -1
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BrownEarth
+        weight: 1
+      - path: Door1
+        weight: 1
+      - path: Door2
+        weight: 1
+      - path: Door3
+        weight: 1
+      - path: Door4
+        weight: 1
+      - path: DoorFrame1
+        weight: 1
+      - path: DoorFrame2
+        weight: 1
+      - path: DoorFrame3
+        weight: 1
+      - path: DoorFrame4
+        weight: 1
+      - path: EarthShell
+        weight: 1
+      - path: FacePlate
+        weight: 1
+      - path: GreenEarth
+        weight: 1
+      - path: MonoTrack
+        weight: 1
+      - path: Rail1
+        weight: 1
+      - path: Rail2
+        weight: 1
+      - path: Rail3
+        weight: 1
+      - path: Rail4
+        weight: 1
+      - path: Rail5
+        weight: 1
+      - path: Rail6
+        weight: 1
+      - path: Rail7
+        weight: 1
+      - path: Rail8
+        weight: 1
+      - path: Rail9
+        weight: 1
+      - path: Rail10
+        weight: 1
+      - path: Rail11
+        weight: 1
+      - path: Rail12
+        weight: 1
+      - path: Rail14
+        weight: 1
+      - path: Rail15
+        weight: 1
+      - path: Rail16
+        weight: 1
+      - path: Rail17
+        weight: 1
+      - path: Rail18
+        weight: 1
+      - path: Rail19
+        weight: 1
+      - path: Rail20
+        weight: 1
+      - path: Rail21
+        weight: 1
+      - path: Rail22
+        weight: 1
+      - path: Rail23
+        weight: 1
+      - path: Rail24
+        weight: 1
+      - path: Reail13
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 0
+    splitTangentsAcrossUV: 1
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

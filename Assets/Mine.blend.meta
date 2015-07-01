@@ -1,0 +1,335 @@
+fileFormatVersion: 2
+guid: dec7af5be8cb382429b7b3f60023ad7e
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Cube
+    100004: Cube_001
+    100006: Cube_002
+    100008: Cube_003
+    100010: Cylinder
+    100012: HighRing
+    100014: HighSpin
+    100016: LowRing
+    100018: LowSpin
+    100020: MidRing
+    100022: MidSpin
+    100024: //RootNode
+    100026: Sphere
+    100028: Torus
+    100030: Torus_001
+    100032: Torus_002
+    100034: Torus_003
+    100036: Torus_004
+    100038: Torus_005
+    100040: Torus_006
+    100042: Torus_007
+    100044: Torus_008
+    100046: Torus_009
+    100048: Torus_010
+    100050: Torus_011
+    100052: Torus_012
+    100054: Torus_013
+    100056: Torus_014
+    400000: Armature
+    400002: Cube
+    400004: Cube_001
+    400006: Cube_002
+    400008: Cube_003
+    400010: Cylinder
+    400012: HighRing
+    400014: HighSpin
+    400016: LowRing
+    400018: LowSpin
+    400020: MidRing
+    400022: MidSpin
+    400024: //RootNode
+    400026: Sphere
+    400028: Torus
+    400030: Torus_001
+    400032: Torus_002
+    400034: Torus_003
+    400036: Torus_004
+    400038: Torus_005
+    400040: Torus_006
+    400042: Torus_007
+    400044: Torus_008
+    400046: Torus_009
+    400048: Torus_010
+    400050: Torus_011
+    400052: Torus_012
+    400054: Torus_013
+    400056: Torus_014
+    2300000: Cube
+    2300002: Cube_001
+    2300004: Cube_002
+    2300006: Cube_003
+    2300008: Cylinder
+    2300010: Sphere
+    3300000: Cube
+    3300002: Cube_001
+    3300004: Cube_002
+    3300006: Cube_003
+    3300008: Cylinder
+    3300010: Sphere
+    4300000: Torus_010
+    4300002: Torus_007
+    4300004: Torus_004
+    4300006: Torus_001
+    4300008: Torus_012
+    4300010: Torus_013
+    4300012: Torus_014
+    4300014: Torus_011
+    4300016: Torus_006
+    4300018: Torus_005
+    4300020: Torus
+    4300022: Torus_009
+    4300024: Torus_008
+    4300026: Torus_003
+    4300028: Torus_002
+    4300030: Cylinder
+    4300032: Cube_003
+    4300034: Cube_002
+    4300036: Cube_001
+    4300038: Cube
+    4300040: Sphere
+    7400000: Default Take
+    7400002: ArmatureAction
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Torus
+    13700002: Torus_001
+    13700004: Torus_002
+    13700006: Torus_003
+    13700008: Torus_004
+    13700010: Torus_005
+    13700012: Torus_006
+    13700014: Torus_007
+    13700016: Torus_008
+    13700018: Torus_009
+    13700020: Torus_010
+    13700022: Torus_011
+    13700024: Torus_012
+    13700026: Torus_013
+    13700028: Torus_014
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 71
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/HighRing
+        weight: 1
+      - path: Armature/HighSpin
+        weight: 1
+      - path: Armature/LowRing
+        weight: 1
+      - path: Armature/LowSpin
+        weight: 1
+      - path: Armature/MidRing
+        weight: 1
+      - path: Armature/MidSpin
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Cube_001
+        weight: 1
+      - path: Cube_002
+        weight: 1
+      - path: Cube_003
+        weight: 1
+      - path: Cylinder
+        weight: 1
+      - path: Sphere
+        weight: 1
+      - path: Torus
+        weight: 1
+      - path: Torus_001
+        weight: 1
+      - path: Torus_002
+        weight: 1
+      - path: Torus_003
+        weight: 1
+      - path: Torus_004
+        weight: 1
+      - path: Torus_005
+        weight: 1
+      - path: Torus_006
+        weight: 1
+      - path: Torus_007
+        weight: 1
+      - path: Torus_008
+        weight: 1
+      - path: Torus_009
+        weight: 1
+      - path: Torus_010
+        weight: 1
+      - path: Torus_011
+        weight: 1
+      - path: Torus_012
+        weight: 1
+      - path: Torus_013
+        weight: 1
+      - path: Torus_014
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: ArmatureAction
+      takeName: ArmatureAction
+      firstFrame: 0
+      lastFrame: 71
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/HighRing
+        weight: 1
+      - path: Armature/HighSpin
+        weight: 1
+      - path: Armature/LowRing
+        weight: 1
+      - path: Armature/LowSpin
+        weight: 1
+      - path: Armature/MidRing
+        weight: 1
+      - path: Armature/MidSpin
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Cube_001
+        weight: 1
+      - path: Cube_002
+        weight: 1
+      - path: Cube_003
+        weight: 1
+      - path: Cylinder
+        weight: 1
+      - path: Sphere
+        weight: 1
+      - path: Torus
+        weight: 1
+      - path: Torus_001
+        weight: 1
+      - path: Torus_002
+        weight: 1
+      - path: Torus_003
+        weight: 1
+      - path: Torus_004
+        weight: 1
+      - path: Torus_005
+        weight: 1
+      - path: Torus_006
+        weight: 1
+      - path: Torus_007
+        weight: 1
+      - path: Torus_008
+        weight: 1
+      - path: Torus_009
+        weight: 1
+      - path: Torus_010
+        weight: 1
+      - path: Torus_011
+        weight: 1
+      - path: Torus_012
+        weight: 1
+      - path: Torus_013
+        weight: 1
+      - path: Torus_014
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  userData: 

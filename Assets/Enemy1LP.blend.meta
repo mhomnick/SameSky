@@ -1,0 +1,1726 @@
+fileFormatVersion: 2
+guid: 58772b982cc1685469de78d3a7310a4e
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Brain
+    100002: Cylinder
+    100004: Cylinder_001
+    100006: Dad
+    100008: Dad_001
+    100010: Dad_002
+    100012: Dad_003
+    100014: Dad_004
+    100016: Dad_005
+    100018: Dad_006
+    100020: Dad_007
+    100022: Dad_008
+    100024: Dad_009
+    100026: Dad_010
+    100028: Dad_011
+    100030: Dad_012
+    100032: Dad_013
+    100034: Dad_014
+    100036: Dad_015
+    100038: Dad_016
+    100040: Dad_017
+    100042: Dad_018
+    100044: Dad_019
+    100046: Dad_020
+    100048: Dad_021
+    100050: Dad_022
+    100052: Dad_023
+    100054: Dad_024
+    100056: Dad_025
+    100058: Dad_026
+    100060: Dad_027
+    100062: Dad_028
+    100064: Dad_029
+    100066: Dad_030
+    100068: Dad_031
+    100070: Dad_032
+    100072: Dad_033
+    100074: Dad_034
+    100076: Dad_035
+    100078: Dad_036
+    100080: Dad_037
+    100082: Dad_038
+    100084: Dad_039
+    100086: Dad_040
+    100088: Dad_041
+    100090: Dad_042
+    100092: Dad_043
+    100094: Dad_044
+    100096: Dad_045
+    100098: Dad_046
+    100100: Dad_047
+    100102: Dad_048
+    100104: Dad_049
+    100106: Dad_050
+    100108: Dad_051
+    100110: Dad_052
+    100112: Dad_053
+    100114: Dad_054
+    100116: Dad_055
+    100118: Dad_056
+    100120: Dad_057
+    100122: Dad_058
+    100124: Dad_059
+    100126: Dad_060
+    100128: Dad_061
+    100130: Dad_062
+    100132: Dad_063
+    100134: Dad_064
+    100136: Dad_065
+    100138: Dad_066
+    100140: Dad_067
+    100142: Dad_068
+    100144: Dad_069
+    100146: Dad_070
+    100148: Dad_071
+    100150: Dad_072
+    100152: Dad_073
+    100154: Dad_074
+    100156: Dad_075
+    100158: Dad_076
+    100160: Dad_077
+    100162: Dad_078
+    100164: Dad_079
+    100166: Dad_080
+    100168: Dad_081
+    100170: Dad_082
+    100172: Dad_083
+    100174: Dad_084
+    100176: Dad_085
+    100178: Dad_086
+    100180: Dad_087
+    100182: Dad_088
+    100184: Dad_089
+    100186: Dad_090
+    100188: Dad_091
+    100190: Dad_092
+    100192: Dad_093
+    100194: Dad_094
+    100196: Dad_095
+    100198: Dad_096
+    100200: Dad_097
+    100202: Dad_098
+    100204: Dad_099
+    100206: Dad_100
+    100208: Dad_101
+    100210: Dad_102
+    100212: Dad_103
+    100214: Dad_104
+    100216: Dad_105
+    100218: Dad_106
+    100220: Dad_107
+    100222: Dad_108
+    100224: Dad_109
+    100226: Dad_110
+    100228: Dad_111
+    100230: Dad_112
+    100232: Dad_113
+    100234: Dad_114
+    100236: Dad_115
+    100238: Dad_116
+    100240: Dad_117
+    100242: Dad_118
+    100244: Dad_119
+    100246: Dad_120
+    100248: Dad_121
+    100250: Dad_122
+    100252: Dad_123
+    100254: Dad_124
+    100256: Dad_125
+    100258: Dad_126
+    100260: Dad_127
+    100262: Dad_128
+    100264: Dad_129
+    100266: Dad_130
+    100268: Dad_131
+    100270: Dad_132
+    100272: Dad_133
+    100274: Dad_134
+    100276: Dad_135
+    100278: Dad_136
+    100280: Dad_137
+    100282: Dad_138
+    100284: Dad_139
+    100286: Dad_140
+    100288: Dad_141
+    100290: Dad_142
+    100292: Dad_143
+    100294: Dad_144
+    100296: Dad_145
+    100298: Dad_146
+    100300: Dad_147
+    100302: Dad_148
+    100304: Dad_149
+    100306: Dad_150
+    100308: Dad_151
+    100310: Dad_152
+    100312: Dad_153
+    100314: Dad_154
+    100316: Dad_155
+    100318: Dad_156
+    100320: Dad_157
+    100322: Dad_158
+    100324: Dad_159
+    100326: Dad_160
+    100328: Dad_161
+    100330: Dad_162
+    100332: Dad_163
+    100334: Dad_164
+    100336: Dad_165
+    100338: Dad_166
+    100340: Dad_167
+    100342: Dad_168
+    100344: Dad_169
+    100346: Dad_170
+    100348: Dad_171
+    100350: Dad_172
+    100352: Dad_173
+    100354: Dad_174
+    100356: Dad_175
+    100358: Empty_002
+    100360: //RootNode
+    100362: Gdad1
+    100364: Gdad2
+    100366: Gdad3
+    100368: Gdad4
+    100370: Gdad5
+    100372: Legs
+    100374: Ring1
+    100376: Ring1_001
+    100378: Ring1_002
+    100380: Ring1_003
+    100382: Ring1_004
+    100384: Ring1_005
+    100386: Ring1_006
+    100388: Ring1_007
+    100390: Ring1_008
+    100392: Ring1_009
+    100394: Ring1_010
+    100396: Ring1_011
+    100398: Ring1_012
+    100400: Ring1_013
+    100402: Ring1_014
+    100404: Ring1_015
+    100406: Ring2
+    100408: Ring2_001
+    100410: Ring2_002
+    100412: Ring2_003
+    100414: Ring2_005
+    100416: Ring2_006
+    100418: Ring2_007
+    100420: Ring2_008
+    100422: Ring2_009
+    100424: Ring2_010
+    100426: Ring2_011
+    100428: Ring2_013
+    100430: Ring2_014
+    100432: Ring2_015
+    100434: Ring3
+    100436: Ring3_001
+    100438: Ring3_002
+    100440: Ring3_003
+    100442: Ring3_004
+    100444: Ring3_005
+    100446: Ring3_006
+    100448: Ring3_007
+    100450: Ring3_008
+    100452: Ring3_009
+    100454: Ring3_010
+    100456: Ring3_011
+    100458: Ring3_012
+    100460: Ring3_013
+    100462: Ring3_014
+    100464: Ring3_015
+    100466: Ring4
+    100468: Ring4_001
+    100470: Ring4_002
+    100472: Ring4_003
+    100474: Ring4_004
+    100476: Ring4_005
+    100478: Ring4_006
+    100480: Ring4_007
+    100482: Ring4_008
+    100484: Ring4_009
+    100486: Ring4_010
+    100488: Ring4_011
+    100490: Ring4_012
+    100492: Ring4_013
+    100494: Ring4_014
+    100496: Ring4_015
+    100498: Ring5
+    100500: Ring5_001
+    100502: Ring5_002
+    100504: Ring5_003
+    100506: Ring5_004
+    100508: Ring5_005
+    100510: Ring5_006
+    100512: Ring5_007
+    100514: Ring5_008
+    100516: Ring5_009
+    100518: Ring5_010
+    100520: Ring5_011
+    100522: Ring5_012
+    100524: Ring5_013
+    100526: Ring5_014
+    100528: Ring5_015
+    100530: Rotate
+    100532: Sphere_001
+    400000: Brain
+    400002: Cylinder
+    400004: Cylinder_001
+    400006: Dad
+    400008: Dad_001
+    400010: Dad_002
+    400012: Dad_003
+    400014: Dad_004
+    400016: Dad_005
+    400018: Dad_006
+    400020: Dad_007
+    400022: Dad_008
+    400024: Dad_009
+    400026: Dad_010
+    400028: Dad_011
+    400030: Dad_012
+    400032: Dad_013
+    400034: Dad_014
+    400036: Dad_015
+    400038: Dad_016
+    400040: Dad_017
+    400042: Dad_018
+    400044: Dad_019
+    400046: Dad_020
+    400048: Dad_021
+    400050: Dad_022
+    400052: Dad_023
+    400054: Dad_024
+    400056: Dad_025
+    400058: Dad_026
+    400060: Dad_027
+    400062: Dad_028
+    400064: Dad_029
+    400066: Dad_030
+    400068: Dad_031
+    400070: Dad_032
+    400072: Dad_033
+    400074: Dad_034
+    400076: Dad_035
+    400078: Dad_036
+    400080: Dad_037
+    400082: Dad_038
+    400084: Dad_039
+    400086: Dad_040
+    400088: Dad_041
+    400090: Dad_042
+    400092: Dad_043
+    400094: Dad_044
+    400096: Dad_045
+    400098: Dad_046
+    400100: Dad_047
+    400102: Dad_048
+    400104: Dad_049
+    400106: Dad_050
+    400108: Dad_051
+    400110: Dad_052
+    400112: Dad_053
+    400114: Dad_054
+    400116: Dad_055
+    400118: Dad_056
+    400120: Dad_057
+    400122: Dad_058
+    400124: Dad_059
+    400126: Dad_060
+    400128: Dad_061
+    400130: Dad_062
+    400132: Dad_063
+    400134: Dad_064
+    400136: Dad_065
+    400138: Dad_066
+    400140: Dad_067
+    400142: Dad_068
+    400144: Dad_069
+    400146: Dad_070
+    400148: Dad_071
+    400150: Dad_072
+    400152: Dad_073
+    400154: Dad_074
+    400156: Dad_075
+    400158: Dad_076
+    400160: Dad_077
+    400162: Dad_078
+    400164: Dad_079
+    400166: Dad_080
+    400168: Dad_081
+    400170: Dad_082
+    400172: Dad_083
+    400174: Dad_084
+    400176: Dad_085
+    400178: Dad_086
+    400180: Dad_087
+    400182: Dad_088
+    400184: Dad_089
+    400186: Dad_090
+    400188: Dad_091
+    400190: Dad_092
+    400192: Dad_093
+    400194: Dad_094
+    400196: Dad_095
+    400198: Dad_096
+    400200: Dad_097
+    400202: Dad_098
+    400204: Dad_099
+    400206: Dad_100
+    400208: Dad_101
+    400210: Dad_102
+    400212: Dad_103
+    400214: Dad_104
+    400216: Dad_105
+    400218: Dad_106
+    400220: Dad_107
+    400222: Dad_108
+    400224: Dad_109
+    400226: Dad_110
+    400228: Dad_111
+    400230: Dad_112
+    400232: Dad_113
+    400234: Dad_114
+    400236: Dad_115
+    400238: Dad_116
+    400240: Dad_117
+    400242: Dad_118
+    400244: Dad_119
+    400246: Dad_120
+    400248: Dad_121
+    400250: Dad_122
+    400252: Dad_123
+    400254: Dad_124
+    400256: Dad_125
+    400258: Dad_126
+    400260: Dad_127
+    400262: Dad_128
+    400264: Dad_129
+    400266: Dad_130
+    400268: Dad_131
+    400270: Dad_132
+    400272: Dad_133
+    400274: Dad_134
+    400276: Dad_135
+    400278: Dad_136
+    400280: Dad_137
+    400282: Dad_138
+    400284: Dad_139
+    400286: Dad_140
+    400288: Dad_141
+    400290: Dad_142
+    400292: Dad_143
+    400294: Dad_144
+    400296: Dad_145
+    400298: Dad_146
+    400300: Dad_147
+    400302: Dad_148
+    400304: Dad_149
+    400306: Dad_150
+    400308: Dad_151
+    400310: Dad_152
+    400312: Dad_153
+    400314: Dad_154
+    400316: Dad_155
+    400318: Dad_156
+    400320: Dad_157
+    400322: Dad_158
+    400324: Dad_159
+    400326: Dad_160
+    400328: Dad_161
+    400330: Dad_162
+    400332: Dad_163
+    400334: Dad_164
+    400336: Dad_165
+    400338: Dad_166
+    400340: Dad_167
+    400342: Dad_168
+    400344: Dad_169
+    400346: Dad_170
+    400348: Dad_171
+    400350: Dad_172
+    400352: Dad_173
+    400354: Dad_174
+    400356: Dad_175
+    400358: Empty_002
+    400360: //RootNode
+    400362: Gdad1
+    400364: Gdad2
+    400366: Gdad3
+    400368: Gdad4
+    400370: Gdad5
+    400372: Legs
+    400374: Ring1
+    400376: Ring1_001
+    400378: Ring1_002
+    400380: Ring1_003
+    400382: Ring1_004
+    400384: Ring1_005
+    400386: Ring1_006
+    400388: Ring1_007
+    400390: Ring1_008
+    400392: Ring1_009
+    400394: Ring1_010
+    400396: Ring1_011
+    400398: Ring1_012
+    400400: Ring1_013
+    400402: Ring1_014
+    400404: Ring1_015
+    400406: Ring2
+    400408: Ring2_001
+    400410: Ring2_002
+    400412: Ring2_003
+    400414: Ring2_005
+    400416: Ring2_006
+    400418: Ring2_007
+    400420: Ring2_008
+    400422: Ring2_009
+    400424: Ring2_010
+    400426: Ring2_011
+    400428: Ring2_013
+    400430: Ring2_014
+    400432: Ring2_015
+    400434: Ring3
+    400436: Ring3_001
+    400438: Ring3_002
+    400440: Ring3_003
+    400442: Ring3_004
+    400444: Ring3_005
+    400446: Ring3_006
+    400448: Ring3_007
+    400450: Ring3_008
+    400452: Ring3_009
+    400454: Ring3_010
+    400456: Ring3_011
+    400458: Ring3_012
+    400460: Ring3_013
+    400462: Ring3_014
+    400464: Ring3_015
+    400466: Ring4
+    400468: Ring4_001
+    400470: Ring4_002
+    400472: Ring4_003
+    400474: Ring4_004
+    400476: Ring4_005
+    400478: Ring4_006
+    400480: Ring4_007
+    400482: Ring4_008
+    400484: Ring4_009
+    400486: Ring4_010
+    400488: Ring4_011
+    400490: Ring4_012
+    400492: Ring4_013
+    400494: Ring4_014
+    400496: Ring4_015
+    400498: Ring5
+    400500: Ring5_001
+    400502: Ring5_002
+    400504: Ring5_003
+    400506: Ring5_004
+    400508: Ring5_005
+    400510: Ring5_006
+    400512: Ring5_007
+    400514: Ring5_008
+    400516: Ring5_009
+    400518: Ring5_010
+    400520: Ring5_011
+    400522: Ring5_012
+    400524: Ring5_013
+    400526: Ring5_014
+    400528: Ring5_015
+    400530: Rotate
+    400532: Sphere_001
+    2300000: Cylinder_001
+    3300000: Cylinder_001
+    4300000: Cylinder
+    4300002: Sphere_001
+    4300004: Cylinder_001
+    7400000: Default Take
+    7400002: LegsAction_002
+    7400004: TurnAround
+    7400006: TurnAround0
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Cylinder
+    13700002: Sphere_001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: TurnAround0
+      takeName: TurnAround
+      firstFrame: -1
+      lastFrame: 140
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cylinder
+        weight: 1
+      - path: Rotate
+        weight: 1
+      - path: Rotate/Cylinder_001
+        weight: 1
+      - path: Rotate/Empty_002
+        weight: 1
+      - path: Rotate/Legs
+        weight: 1
+      - path: Rotate/Legs/Brain
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad/Dad_088
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad/Dad_088/Dad_001
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad/Dad_088/Dad_001/Dad_089
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad/Dad_088/Dad_001/Dad_089/Dad_002
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad/Dad_088/Dad_001/Dad_089/Dad_002/Dad_090
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad/Dad_088/Dad_001/Dad_089/Dad_002/Dad_090/Dad_003
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad/Dad_088/Dad_001/Dad_089/Dad_002/Dad_090/Dad_003/Dad_091
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad/Dad_088/Dad_001/Dad_089/Dad_002/Dad_090/Dad_003/Dad_091/Dad_004
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad/Dad_088/Dad_001/Dad_089/Dad_002/Dad_090/Dad_003/Dad_091/Dad_004/Dad_092
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad/Dad_088/Dad_001/Dad_089/Dad_002/Dad_090/Dad_003/Dad_091/Dad_004/Dad_092/Dad_005
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad/Dad_088/Dad_001/Dad_089/Dad_002/Dad_090/Dad_003/Dad_091/Dad_004/Dad_092/Dad_005/Dad_093
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad/Dad_088/Dad_001/Dad_089/Dad_002/Dad_090/Dad_003/Dad_091/Dad_004/Dad_092/Dad_005/Dad_093/Dad_006
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad/Dad_088/Dad_001/Dad_089/Dad_002/Dad_090/Dad_003/Dad_091/Dad_004/Dad_092/Dad_005/Dad_093/Dad_006/Dad_094
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad/Dad_088/Dad_001/Dad_089/Dad_002/Dad_090/Dad_003/Dad_091/Dad_004/Dad_092/Dad_005/Dad_093/Dad_006/Dad_094/Dad_007
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad/Dad_088/Dad_001/Dad_089/Dad_002/Dad_090/Dad_003/Dad_091/Dad_004/Dad_092/Dad_005/Dad_093/Dad_006/Dad_094/Dad_007/Dad_095
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad/Dad_088/Dad_001/Dad_089/Dad_002/Dad_090/Dad_003/Dad_091/Dad_004/Dad_092/Dad_005/Dad_093/Dad_006/Dad_094/Dad_007/Dad_095/Dad_008
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad/Dad_088/Dad_001/Dad_089/Dad_002/Dad_090/Dad_003/Dad_091/Dad_004/Dad_092/Dad_005/Dad_093/Dad_006/Dad_094/Dad_007/Dad_095/Dad_008/Dad_096
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad/Dad_088/Dad_001/Dad_089/Dad_002/Dad_090/Dad_003/Dad_091/Dad_004/Dad_092/Dad_005/Dad_093/Dad_006/Dad_094/Dad_007/Dad_095/Dad_008/Dad_096/Dad_009
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad/Dad_088/Dad_001/Dad_089/Dad_002/Dad_090/Dad_003/Dad_091/Dad_004/Dad_092/Dad_005/Dad_093/Dad_006/Dad_094/Dad_007/Dad_095/Dad_008/Dad_096/Dad_009/Dad_097
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad/Dad_088/Dad_001/Dad_089/Dad_002/Dad_090/Dad_003/Dad_091/Dad_004/Dad_092/Dad_005/Dad_093/Dad_006/Dad_094/Dad_007/Dad_095/Dad_008/Dad_096/Dad_009/Dad_097/Dad_010
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad/Dad_088/Dad_001/Dad_089/Dad_002/Dad_090/Dad_003/Dad_091/Dad_004/Dad_092/Dad_005/Dad_093/Dad_006/Dad_094/Dad_007/Dad_095/Dad_008/Dad_096/Dad_009/Dad_097/Dad_010/Dad_098
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_011
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_011/Dad_099
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_011/Dad_099/Dad_012
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_011/Dad_099/Dad_012/Dad_100
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_011/Dad_099/Dad_012/Dad_100/Dad_013
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_011/Dad_099/Dad_012/Dad_100/Dad_013/Dad_101
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_011/Dad_099/Dad_012/Dad_100/Dad_013/Dad_101/Dad_014
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_011/Dad_099/Dad_012/Dad_100/Dad_013/Dad_101/Dad_014/Dad_102
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_011/Dad_099/Dad_012/Dad_100/Dad_013/Dad_101/Dad_014/Dad_102/Dad_015
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_011/Dad_099/Dad_012/Dad_100/Dad_013/Dad_101/Dad_014/Dad_102/Dad_015/Dad_103
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_011/Dad_099/Dad_012/Dad_100/Dad_013/Dad_101/Dad_014/Dad_102/Dad_015/Dad_103/Dad_016
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_011/Dad_099/Dad_012/Dad_100/Dad_013/Dad_101/Dad_014/Dad_102/Dad_015/Dad_103/Dad_016/Dad_104
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_011/Dad_099/Dad_012/Dad_100/Dad_013/Dad_101/Dad_014/Dad_102/Dad_015/Dad_103/Dad_016/Dad_104/Dad_017
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_011/Dad_099/Dad_012/Dad_100/Dad_013/Dad_101/Dad_014/Dad_102/Dad_015/Dad_103/Dad_016/Dad_104/Dad_017/Dad_105
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_011/Dad_099/Dad_012/Dad_100/Dad_013/Dad_101/Dad_014/Dad_102/Dad_015/Dad_103/Dad_016/Dad_104/Dad_017/Dad_105/Dad_018
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_011/Dad_099/Dad_012/Dad_100/Dad_013/Dad_101/Dad_014/Dad_102/Dad_015/Dad_103/Dad_016/Dad_104/Dad_017/Dad_105/Dad_018/Dad_106
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_011/Dad_099/Dad_012/Dad_100/Dad_013/Dad_101/Dad_014/Dad_102/Dad_015/Dad_103/Dad_016/Dad_104/Dad_017/Dad_105/Dad_018/Dad_106/Dad_019
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_011/Dad_099/Dad_012/Dad_100/Dad_013/Dad_101/Dad_014/Dad_102/Dad_015/Dad_103/Dad_016/Dad_104/Dad_017/Dad_105/Dad_018/Dad_106/Dad_019/Dad_107
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_011/Dad_099/Dad_012/Dad_100/Dad_013/Dad_101/Dad_014/Dad_102/Dad_015/Dad_103/Dad_016/Dad_104/Dad_017/Dad_105/Dad_018/Dad_106/Dad_019/Dad_107/Dad_020
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_011/Dad_099/Dad_012/Dad_100/Dad_013/Dad_101/Dad_014/Dad_102/Dad_015/Dad_103/Dad_016/Dad_104/Dad_017/Dad_105/Dad_018/Dad_106/Dad_019/Dad_107/Dad_020/Dad_108
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_011/Dad_099/Dad_012/Dad_100/Dad_013/Dad_101/Dad_014/Dad_102/Dad_015/Dad_103/Dad_016/Dad_104/Dad_017/Dad_105/Dad_018/Dad_106/Dad_019/Dad_107/Dad_020/Dad_108/Dad_021
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_011/Dad_099/Dad_012/Dad_100/Dad_013/Dad_101/Dad_014/Dad_102/Dad_015/Dad_103/Dad_016/Dad_104/Dad_017/Dad_105/Dad_018/Dad_106/Dad_019/Dad_107/Dad_020/Dad_108/Dad_021/Dad_109
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_022
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_022/Dad_110
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_022/Dad_110/Dad_023
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_022/Dad_110/Dad_023/Dad_111
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_022/Dad_110/Dad_023/Dad_111/Dad_024
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_022/Dad_110/Dad_023/Dad_111/Dad_024/Dad_112
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_022/Dad_110/Dad_023/Dad_111/Dad_024/Dad_112/Dad_025
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_022/Dad_110/Dad_023/Dad_111/Dad_024/Dad_112/Dad_025/Dad_113
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_022/Dad_110/Dad_023/Dad_111/Dad_024/Dad_112/Dad_025/Dad_113/Dad_026
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_022/Dad_110/Dad_023/Dad_111/Dad_024/Dad_112/Dad_025/Dad_113/Dad_026/Dad_114
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_022/Dad_110/Dad_023/Dad_111/Dad_024/Dad_112/Dad_025/Dad_113/Dad_026/Dad_114/Dad_027
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_022/Dad_110/Dad_023/Dad_111/Dad_024/Dad_112/Dad_025/Dad_113/Dad_026/Dad_114/Dad_027/Dad_115
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_022/Dad_110/Dad_023/Dad_111/Dad_024/Dad_112/Dad_025/Dad_113/Dad_026/Dad_114/Dad_027/Dad_115/Dad_028
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_022/Dad_110/Dad_023/Dad_111/Dad_024/Dad_112/Dad_025/Dad_113/Dad_026/Dad_114/Dad_027/Dad_115/Dad_028/Dad_116
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_022/Dad_110/Dad_023/Dad_111/Dad_024/Dad_112/Dad_025/Dad_113/Dad_026/Dad_114/Dad_027/Dad_115/Dad_028/Dad_116/Dad_029
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_022/Dad_110/Dad_023/Dad_111/Dad_024/Dad_112/Dad_025/Dad_113/Dad_026/Dad_114/Dad_027/Dad_115/Dad_028/Dad_116/Dad_029/Dad_117
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_022/Dad_110/Dad_023/Dad_111/Dad_024/Dad_112/Dad_025/Dad_113/Dad_026/Dad_114/Dad_027/Dad_115/Dad_028/Dad_116/Dad_029/Dad_117/Dad_030
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_022/Dad_110/Dad_023/Dad_111/Dad_024/Dad_112/Dad_025/Dad_113/Dad_026/Dad_114/Dad_027/Dad_115/Dad_028/Dad_116/Dad_029/Dad_117/Dad_030/Dad_118
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_022/Dad_110/Dad_023/Dad_111/Dad_024/Dad_112/Dad_025/Dad_113/Dad_026/Dad_114/Dad_027/Dad_115/Dad_028/Dad_116/Dad_029/Dad_117/Dad_030/Dad_118/Dad_031
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_022/Dad_110/Dad_023/Dad_111/Dad_024/Dad_112/Dad_025/Dad_113/Dad_026/Dad_114/Dad_027/Dad_115/Dad_028/Dad_116/Dad_029/Dad_117/Dad_030/Dad_118/Dad_031/Dad_119
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_022/Dad_110/Dad_023/Dad_111/Dad_024/Dad_112/Dad_025/Dad_113/Dad_026/Dad_114/Dad_027/Dad_115/Dad_028/Dad_116/Dad_029/Dad_117/Dad_030/Dad_118/Dad_031/Dad_119/Dad_032
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_022/Dad_110/Dad_023/Dad_111/Dad_024/Dad_112/Dad_025/Dad_113/Dad_026/Dad_114/Dad_027/Dad_115/Dad_028/Dad_116/Dad_029/Dad_117/Dad_030/Dad_118/Dad_031/Dad_119/Dad_032/Dad_120
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_033
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_033/Dad_121
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_033/Dad_121/Dad_034
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_033/Dad_121/Dad_034/Dad_122
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_033/Dad_121/Dad_034/Dad_122/Dad_035
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_033/Dad_121/Dad_034/Dad_122/Dad_035/Dad_123
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_033/Dad_121/Dad_034/Dad_122/Dad_035/Dad_123/Dad_036
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_033/Dad_121/Dad_034/Dad_122/Dad_035/Dad_123/Dad_036/Dad_124
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_033/Dad_121/Dad_034/Dad_122/Dad_035/Dad_123/Dad_036/Dad_124/Dad_037
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_033/Dad_121/Dad_034/Dad_122/Dad_035/Dad_123/Dad_036/Dad_124/Dad_037/Dad_125
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_033/Dad_121/Dad_034/Dad_122/Dad_035/Dad_123/Dad_036/Dad_124/Dad_037/Dad_125/Dad_038
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_033/Dad_121/Dad_034/Dad_122/Dad_035/Dad_123/Dad_036/Dad_124/Dad_037/Dad_125/Dad_038/Dad_126
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_033/Dad_121/Dad_034/Dad_122/Dad_035/Dad_123/Dad_036/Dad_124/Dad_037/Dad_125/Dad_038/Dad_126/Dad_039
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_033/Dad_121/Dad_034/Dad_122/Dad_035/Dad_123/Dad_036/Dad_124/Dad_037/Dad_125/Dad_038/Dad_126/Dad_039/Dad_127
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_033/Dad_121/Dad_034/Dad_122/Dad_035/Dad_123/Dad_036/Dad_124/Dad_037/Dad_125/Dad_038/Dad_126/Dad_039/Dad_127/Dad_040
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_033/Dad_121/Dad_034/Dad_122/Dad_035/Dad_123/Dad_036/Dad_124/Dad_037/Dad_125/Dad_038/Dad_126/Dad_039/Dad_127/Dad_040/Dad_128
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_033/Dad_121/Dad_034/Dad_122/Dad_035/Dad_123/Dad_036/Dad_124/Dad_037/Dad_125/Dad_038/Dad_126/Dad_039/Dad_127/Dad_040/Dad_128/Dad_041
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_033/Dad_121/Dad_034/Dad_122/Dad_035/Dad_123/Dad_036/Dad_124/Dad_037/Dad_125/Dad_038/Dad_126/Dad_039/Dad_127/Dad_040/Dad_128/Dad_041/Dad_129
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_033/Dad_121/Dad_034/Dad_122/Dad_035/Dad_123/Dad_036/Dad_124/Dad_037/Dad_125/Dad_038/Dad_126/Dad_039/Dad_127/Dad_040/Dad_128/Dad_041/Dad_129/Dad_042
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_033/Dad_121/Dad_034/Dad_122/Dad_035/Dad_123/Dad_036/Dad_124/Dad_037/Dad_125/Dad_038/Dad_126/Dad_039/Dad_127/Dad_040/Dad_128/Dad_041/Dad_129/Dad_042/Dad_130
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_033/Dad_121/Dad_034/Dad_122/Dad_035/Dad_123/Dad_036/Dad_124/Dad_037/Dad_125/Dad_038/Dad_126/Dad_039/Dad_127/Dad_040/Dad_128/Dad_041/Dad_129/Dad_042/Dad_130/Dad_043
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_033/Dad_121/Dad_034/Dad_122/Dad_035/Dad_123/Dad_036/Dad_124/Dad_037/Dad_125/Dad_038/Dad_126/Dad_039/Dad_127/Dad_040/Dad_128/Dad_041/Dad_129/Dad_042/Dad_130/Dad_043/Dad_131
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_044
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_044/Dad_132
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_044/Dad_132/Dad_045
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_044/Dad_132/Dad_045/Dad_133
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_044/Dad_132/Dad_045/Dad_133/Dad_046
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_044/Dad_132/Dad_045/Dad_133/Dad_046/Dad_134
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_044/Dad_132/Dad_045/Dad_133/Dad_046/Dad_134/Dad_047
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_044/Dad_132/Dad_045/Dad_133/Dad_046/Dad_134/Dad_047/Dad_135
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_044/Dad_132/Dad_045/Dad_133/Dad_046/Dad_134/Dad_047/Dad_135/Dad_048
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_044/Dad_132/Dad_045/Dad_133/Dad_046/Dad_134/Dad_047/Dad_135/Dad_048/Dad_136
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_044/Dad_132/Dad_045/Dad_133/Dad_046/Dad_134/Dad_047/Dad_135/Dad_048/Dad_136/Dad_049
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_044/Dad_132/Dad_045/Dad_133/Dad_046/Dad_134/Dad_047/Dad_135/Dad_048/Dad_136/Dad_049/Dad_137
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_044/Dad_132/Dad_045/Dad_133/Dad_046/Dad_134/Dad_047/Dad_135/Dad_048/Dad_136/Dad_049/Dad_137/Dad_050
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_044/Dad_132/Dad_045/Dad_133/Dad_046/Dad_134/Dad_047/Dad_135/Dad_048/Dad_136/Dad_049/Dad_137/Dad_050/Dad_138
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_044/Dad_132/Dad_045/Dad_133/Dad_046/Dad_134/Dad_047/Dad_135/Dad_048/Dad_136/Dad_049/Dad_137/Dad_050/Dad_138/Dad_051
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_044/Dad_132/Dad_045/Dad_133/Dad_046/Dad_134/Dad_047/Dad_135/Dad_048/Dad_136/Dad_049/Dad_137/Dad_050/Dad_138/Dad_051/Dad_139
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_044/Dad_132/Dad_045/Dad_133/Dad_046/Dad_134/Dad_047/Dad_135/Dad_048/Dad_136/Dad_049/Dad_137/Dad_050/Dad_138/Dad_051/Dad_139/Dad_052
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_044/Dad_132/Dad_045/Dad_133/Dad_046/Dad_134/Dad_047/Dad_135/Dad_048/Dad_136/Dad_049/Dad_137/Dad_050/Dad_138/Dad_051/Dad_139/Dad_052/Dad_140
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_044/Dad_132/Dad_045/Dad_133/Dad_046/Dad_134/Dad_047/Dad_135/Dad_048/Dad_136/Dad_049/Dad_137/Dad_050/Dad_138/Dad_051/Dad_139/Dad_052/Dad_140/Dad_053
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_044/Dad_132/Dad_045/Dad_133/Dad_046/Dad_134/Dad_047/Dad_135/Dad_048/Dad_136/Dad_049/Dad_137/Dad_050/Dad_138/Dad_051/Dad_139/Dad_052/Dad_140/Dad_053/Dad_141
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_044/Dad_132/Dad_045/Dad_133/Dad_046/Dad_134/Dad_047/Dad_135/Dad_048/Dad_136/Dad_049/Dad_137/Dad_050/Dad_138/Dad_051/Dad_139/Dad_052/Dad_140/Dad_053/Dad_141/Dad_054
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_044/Dad_132/Dad_045/Dad_133/Dad_046/Dad_134/Dad_047/Dad_135/Dad_048/Dad_136/Dad_049/Dad_137/Dad_050/Dad_138/Dad_051/Dad_139/Dad_052/Dad_140/Dad_053/Dad_141/Dad_054/Dad_142
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_055
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_055/Dad_143
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_055/Dad_143/Dad_056
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_055/Dad_143/Dad_056/Dad_144
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_055/Dad_143/Dad_056/Dad_144/Dad_057
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_055/Dad_143/Dad_056/Dad_144/Dad_057/Dad_145
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_055/Dad_143/Dad_056/Dad_144/Dad_057/Dad_145/Dad_058
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_055/Dad_143/Dad_056/Dad_144/Dad_057/Dad_145/Dad_058/Dad_146
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_055/Dad_143/Dad_056/Dad_144/Dad_057/Dad_145/Dad_058/Dad_146/Dad_059
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_055/Dad_143/Dad_056/Dad_144/Dad_057/Dad_145/Dad_058/Dad_146/Dad_059/Dad_147
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_055/Dad_143/Dad_056/Dad_144/Dad_057/Dad_145/Dad_058/Dad_146/Dad_059/Dad_147/Dad_060
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_055/Dad_143/Dad_056/Dad_144/Dad_057/Dad_145/Dad_058/Dad_146/Dad_059/Dad_147/Dad_060/Dad_148
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_055/Dad_143/Dad_056/Dad_144/Dad_057/Dad_145/Dad_058/Dad_146/Dad_059/Dad_147/Dad_060/Dad_148/Dad_061
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_055/Dad_143/Dad_056/Dad_144/Dad_057/Dad_145/Dad_058/Dad_146/Dad_059/Dad_147/Dad_060/Dad_148/Dad_061/Dad_149
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_055/Dad_143/Dad_056/Dad_144/Dad_057/Dad_145/Dad_058/Dad_146/Dad_059/Dad_147/Dad_060/Dad_148/Dad_061/Dad_149/Dad_062
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_055/Dad_143/Dad_056/Dad_144/Dad_057/Dad_145/Dad_058/Dad_146/Dad_059/Dad_147/Dad_060/Dad_148/Dad_061/Dad_149/Dad_062/Dad_150
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_055/Dad_143/Dad_056/Dad_144/Dad_057/Dad_145/Dad_058/Dad_146/Dad_059/Dad_147/Dad_060/Dad_148/Dad_061/Dad_149/Dad_062/Dad_150/Dad_063
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_055/Dad_143/Dad_056/Dad_144/Dad_057/Dad_145/Dad_058/Dad_146/Dad_059/Dad_147/Dad_060/Dad_148/Dad_061/Dad_149/Dad_062/Dad_150/Dad_063/Dad_151
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_055/Dad_143/Dad_056/Dad_144/Dad_057/Dad_145/Dad_058/Dad_146/Dad_059/Dad_147/Dad_060/Dad_148/Dad_061/Dad_149/Dad_062/Dad_150/Dad_063/Dad_151/Dad_064
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_055/Dad_143/Dad_056/Dad_144/Dad_057/Dad_145/Dad_058/Dad_146/Dad_059/Dad_147/Dad_060/Dad_148/Dad_061/Dad_149/Dad_062/Dad_150/Dad_063/Dad_151/Dad_064/Dad_152
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_055/Dad_143/Dad_056/Dad_144/Dad_057/Dad_145/Dad_058/Dad_146/Dad_059/Dad_147/Dad_060/Dad_148/Dad_061/Dad_149/Dad_062/Dad_150/Dad_063/Dad_151/Dad_064/Dad_152/Dad_065
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_055/Dad_143/Dad_056/Dad_144/Dad_057/Dad_145/Dad_058/Dad_146/Dad_059/Dad_147/Dad_060/Dad_148/Dad_061/Dad_149/Dad_062/Dad_150/Dad_063/Dad_151/Dad_064/Dad_152/Dad_065/Dad_153
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_066
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_066/Dad_154
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_066/Dad_154/Dad_067
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_066/Dad_154/Dad_067/Dad_155
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_066/Dad_154/Dad_067/Dad_155/Dad_068
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_066/Dad_154/Dad_067/Dad_155/Dad_068/Dad_156
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_066/Dad_154/Dad_067/Dad_155/Dad_068/Dad_156/Dad_069
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_066/Dad_154/Dad_067/Dad_155/Dad_068/Dad_156/Dad_069/Dad_157
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_066/Dad_154/Dad_067/Dad_155/Dad_068/Dad_156/Dad_069/Dad_157/Dad_070
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_066/Dad_154/Dad_067/Dad_155/Dad_068/Dad_156/Dad_069/Dad_157/Dad_070/Dad_158
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_066/Dad_154/Dad_067/Dad_155/Dad_068/Dad_156/Dad_069/Dad_157/Dad_070/Dad_158/Dad_071
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_066/Dad_154/Dad_067/Dad_155/Dad_068/Dad_156/Dad_069/Dad_157/Dad_070/Dad_158/Dad_071/Dad_159
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_066/Dad_154/Dad_067/Dad_155/Dad_068/Dad_156/Dad_069/Dad_157/Dad_070/Dad_158/Dad_071/Dad_159/Dad_072
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_066/Dad_154/Dad_067/Dad_155/Dad_068/Dad_156/Dad_069/Dad_157/Dad_070/Dad_158/Dad_071/Dad_159/Dad_072/Dad_160
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_066/Dad_154/Dad_067/Dad_155/Dad_068/Dad_156/Dad_069/Dad_157/Dad_070/Dad_158/Dad_071/Dad_159/Dad_072/Dad_160/Dad_073
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_066/Dad_154/Dad_067/Dad_155/Dad_068/Dad_156/Dad_069/Dad_157/Dad_070/Dad_158/Dad_071/Dad_159/Dad_072/Dad_160/Dad_073/Dad_161
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_066/Dad_154/Dad_067/Dad_155/Dad_068/Dad_156/Dad_069/Dad_157/Dad_070/Dad_158/Dad_071/Dad_159/Dad_072/Dad_160/Dad_073/Dad_161/Dad_074
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_066/Dad_154/Dad_067/Dad_155/Dad_068/Dad_156/Dad_069/Dad_157/Dad_070/Dad_158/Dad_071/Dad_159/Dad_072/Dad_160/Dad_073/Dad_161/Dad_074/Dad_162
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_066/Dad_154/Dad_067/Dad_155/Dad_068/Dad_156/Dad_069/Dad_157/Dad_070/Dad_158/Dad_071/Dad_159/Dad_072/Dad_160/Dad_073/Dad_161/Dad_074/Dad_162/Dad_075
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_066/Dad_154/Dad_067/Dad_155/Dad_068/Dad_156/Dad_069/Dad_157/Dad_070/Dad_158/Dad_071/Dad_159/Dad_072/Dad_160/Dad_073/Dad_161/Dad_074/Dad_162/Dad_075/Dad_163
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_066/Dad_154/Dad_067/Dad_155/Dad_068/Dad_156/Dad_069/Dad_157/Dad_070/Dad_158/Dad_071/Dad_159/Dad_072/Dad_160/Dad_073/Dad_161/Dad_074/Dad_162/Dad_075/Dad_163/Dad_076
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_066/Dad_154/Dad_067/Dad_155/Dad_068/Dad_156/Dad_069/Dad_157/Dad_070/Dad_158/Dad_071/Dad_159/Dad_072/Dad_160/Dad_073/Dad_161/Dad_074/Dad_162/Dad_075/Dad_163/Dad_076/Dad_164
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_077
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_077/Dad_165
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_077/Dad_165/Dad_078
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_077/Dad_165/Dad_078/Dad_166
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_077/Dad_165/Dad_078/Dad_166/Dad_079
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_077/Dad_165/Dad_078/Dad_166/Dad_079/Dad_167
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_077/Dad_165/Dad_078/Dad_166/Dad_079/Dad_167/Dad_080
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_077/Dad_165/Dad_078/Dad_166/Dad_079/Dad_167/Dad_080/Dad_168
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_077/Dad_165/Dad_078/Dad_166/Dad_079/Dad_167/Dad_080/Dad_168/Dad_081
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_077/Dad_165/Dad_078/Dad_166/Dad_079/Dad_167/Dad_080/Dad_168/Dad_081/Dad_169
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_077/Dad_165/Dad_078/Dad_166/Dad_079/Dad_167/Dad_080/Dad_168/Dad_081/Dad_169/Dad_082
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_077/Dad_165/Dad_078/Dad_166/Dad_079/Dad_167/Dad_080/Dad_168/Dad_081/Dad_169/Dad_082/Dad_170
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_077/Dad_165/Dad_078/Dad_166/Dad_079/Dad_167/Dad_080/Dad_168/Dad_081/Dad_169/Dad_082/Dad_170/Dad_083
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_077/Dad_165/Dad_078/Dad_166/Dad_079/Dad_167/Dad_080/Dad_168/Dad_081/Dad_169/Dad_082/Dad_170/Dad_083/Dad_171
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_077/Dad_165/Dad_078/Dad_166/Dad_079/Dad_167/Dad_080/Dad_168/Dad_081/Dad_169/Dad_082/Dad_170/Dad_083/Dad_171/Dad_084
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_077/Dad_165/Dad_078/Dad_166/Dad_079/Dad_167/Dad_080/Dad_168/Dad_081/Dad_169/Dad_082/Dad_170/Dad_083/Dad_171/Dad_084/Dad_172
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_077/Dad_165/Dad_078/Dad_166/Dad_079/Dad_167/Dad_080/Dad_168/Dad_081/Dad_169/Dad_082/Dad_170/Dad_083/Dad_171/Dad_084/Dad_172/Dad_085
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_077/Dad_165/Dad_078/Dad_166/Dad_079/Dad_167/Dad_080/Dad_168/Dad_081/Dad_169/Dad_082/Dad_170/Dad_083/Dad_171/Dad_084/Dad_172/Dad_085/Dad_173
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_077/Dad_165/Dad_078/Dad_166/Dad_079/Dad_167/Dad_080/Dad_168/Dad_081/Dad_169/Dad_082/Dad_170/Dad_083/Dad_171/Dad_084/Dad_172/Dad_085/Dad_173/Dad_086
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_077/Dad_165/Dad_078/Dad_166/Dad_079/Dad_167/Dad_080/Dad_168/Dad_081/Dad_169/Dad_082/Dad_170/Dad_083/Dad_171/Dad_084/Dad_172/Dad_085/Dad_173/Dad_086/Dad_174
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_077/Dad_165/Dad_078/Dad_166/Dad_079/Dad_167/Dad_080/Dad_168/Dad_081/Dad_169/Dad_082/Dad_170/Dad_083/Dad_171/Dad_084/Dad_172/Dad_085/Dad_173/Dad_086/Dad_174/Dad_087
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_077/Dad_165/Dad_078/Dad_166/Dad_079/Dad_167/Dad_080/Dad_168/Dad_081/Dad_169/Dad_082/Dad_170/Dad_083/Dad_171/Dad_084/Dad_172/Dad_085/Dad_173/Dad_086/Dad_174/Dad_087/Dad_175
+        weight: 1
+      - path: Rotate/Legs/Gdad1
+        weight: 1
+      - path: Rotate/Legs/Gdad1/Ring1
+        weight: 1
+      - path: Rotate/Legs/Gdad1/Ring1/Ring1_008
+        weight: 1
+      - path: Rotate/Legs/Gdad1/Ring1_001
+        weight: 1
+      - path: Rotate/Legs/Gdad1/Ring1_001/Ring1_009
+        weight: 1
+      - path: Rotate/Legs/Gdad1/Ring1_002
+        weight: 1
+      - path: Rotate/Legs/Gdad1/Ring1_002/Ring1_010
+        weight: 1
+      - path: Rotate/Legs/Gdad1/Ring1_003
+        weight: 1
+      - path: Rotate/Legs/Gdad1/Ring1_003/Ring1_011
+        weight: 1
+      - path: Rotate/Legs/Gdad1/Ring1_004
+        weight: 1
+      - path: Rotate/Legs/Gdad1/Ring1_004/Ring1_012
+        weight: 1
+      - path: Rotate/Legs/Gdad1/Ring1_005
+        weight: 1
+      - path: Rotate/Legs/Gdad1/Ring1_005/Ring1_013
+        weight: 1
+      - path: Rotate/Legs/Gdad1/Ring1_006
+        weight: 1
+      - path: Rotate/Legs/Gdad1/Ring1_006/Ring1_014
+        weight: 1
+      - path: Rotate/Legs/Gdad1/Ring1_007
+        weight: 1
+      - path: Rotate/Legs/Gdad1/Ring1_007/Ring1_015
+        weight: 1
+      - path: Rotate/Legs/Gdad2
+        weight: 1
+      - path: Rotate/Legs/Gdad2/Ring2
+        weight: 1
+      - path: Rotate/Legs/Gdad2/Ring2/Ring2_008
+        weight: 1
+      - path: Rotate/Legs/Gdad2/Ring2_001
+        weight: 1
+      - path: Rotate/Legs/Gdad2/Ring2_001/Ring2_009
+        weight: 1
+      - path: Rotate/Legs/Gdad2/Ring2_002
+        weight: 1
+      - path: Rotate/Legs/Gdad2/Ring2_002/Ring2_010
+        weight: 1
+      - path: Rotate/Legs/Gdad2/Ring2_003
+        weight: 1
+      - path: Rotate/Legs/Gdad2/Ring2_003/Ring2_011
+        weight: 1
+      - path: Rotate/Legs/Gdad2/Ring2_005
+        weight: 1
+      - path: Rotate/Legs/Gdad2/Ring2_005/Ring2_013
+        weight: 1
+      - path: Rotate/Legs/Gdad2/Ring2_006
+        weight: 1
+      - path: Rotate/Legs/Gdad2/Ring2_006/Ring2_014
+        weight: 1
+      - path: Rotate/Legs/Gdad2/Ring2_007
+        weight: 1
+      - path: Rotate/Legs/Gdad2/Ring2_007/Ring2_015
+        weight: 1
+      - path: Rotate/Legs/Gdad3
+        weight: 1
+      - path: Rotate/Legs/Gdad3/Ring3
+        weight: 1
+      - path: Rotate/Legs/Gdad3/Ring3/Ring3_008
+        weight: 1
+      - path: Rotate/Legs/Gdad3/Ring3_001
+        weight: 1
+      - path: Rotate/Legs/Gdad3/Ring3_001/Ring3_009
+        weight: 1
+      - path: Rotate/Legs/Gdad3/Ring3_002
+        weight: 1
+      - path: Rotate/Legs/Gdad3/Ring3_002/Ring3_010
+        weight: 1
+      - path: Rotate/Legs/Gdad3/Ring3_003
+        weight: 1
+      - path: Rotate/Legs/Gdad3/Ring3_003/Ring3_011
+        weight: 1
+      - path: Rotate/Legs/Gdad3/Ring3_004
+        weight: 1
+      - path: Rotate/Legs/Gdad3/Ring3_004/Ring3_012
+        weight: 1
+      - path: Rotate/Legs/Gdad3/Ring3_005
+        weight: 1
+      - path: Rotate/Legs/Gdad3/Ring3_005/Ring3_013
+        weight: 1
+      - path: Rotate/Legs/Gdad3/Ring3_006
+        weight: 1
+      - path: Rotate/Legs/Gdad3/Ring3_006/Ring3_014
+        weight: 1
+      - path: Rotate/Legs/Gdad3/Ring3_007
+        weight: 1
+      - path: Rotate/Legs/Gdad3/Ring3_007/Ring3_015
+        weight: 1
+      - path: Rotate/Legs/Gdad4
+        weight: 1
+      - path: Rotate/Legs/Gdad4/Ring4
+        weight: 1
+      - path: Rotate/Legs/Gdad4/Ring4/Ring4_008
+        weight: 1
+      - path: Rotate/Legs/Gdad4/Ring4_001
+        weight: 1
+      - path: Rotate/Legs/Gdad4/Ring4_001/Ring4_009
+        weight: 1
+      - path: Rotate/Legs/Gdad4/Ring4_002
+        weight: 1
+      - path: Rotate/Legs/Gdad4/Ring4_002/Ring4_010
+        weight: 1
+      - path: Rotate/Legs/Gdad4/Ring4_003
+        weight: 1
+      - path: Rotate/Legs/Gdad4/Ring4_003/Ring4_011
+        weight: 1
+      - path: Rotate/Legs/Gdad4/Ring4_004
+        weight: 1
+      - path: Rotate/Legs/Gdad4/Ring4_004/Ring4_012
+        weight: 1
+      - path: Rotate/Legs/Gdad4/Ring4_005
+        weight: 1
+      - path: Rotate/Legs/Gdad4/Ring4_005/Ring4_013
+        weight: 1
+      - path: Rotate/Legs/Gdad4/Ring4_006
+        weight: 1
+      - path: Rotate/Legs/Gdad4/Ring4_006/Ring4_014
+        weight: 1
+      - path: Rotate/Legs/Gdad4/Ring4_007
+        weight: 1
+      - path: Rotate/Legs/Gdad4/Ring4_007/Ring4_015
+        weight: 1
+      - path: Rotate/Legs/Gdad5
+        weight: 1
+      - path: Rotate/Legs/Gdad5/Ring5
+        weight: 1
+      - path: Rotate/Legs/Gdad5/Ring5/Ring5_008
+        weight: 1
+      - path: Rotate/Legs/Gdad5/Ring5_001
+        weight: 1
+      - path: Rotate/Legs/Gdad5/Ring5_001/Ring5_009
+        weight: 1
+      - path: Rotate/Legs/Gdad5/Ring5_002
+        weight: 1
+      - path: Rotate/Legs/Gdad5/Ring5_002/Ring5_010
+        weight: 1
+      - path: Rotate/Legs/Gdad5/Ring5_003
+        weight: 1
+      - path: Rotate/Legs/Gdad5/Ring5_003/Ring5_011
+        weight: 1
+      - path: Rotate/Legs/Gdad5/Ring5_004
+        weight: 1
+      - path: Rotate/Legs/Gdad5/Ring5_004/Ring5_012
+        weight: 1
+      - path: Rotate/Legs/Gdad5/Ring5_005
+        weight: 1
+      - path: Rotate/Legs/Gdad5/Ring5_005/Ring5_013
+        weight: 1
+      - path: Rotate/Legs/Gdad5/Ring5_006
+        weight: 1
+      - path: Rotate/Legs/Gdad5/Ring5_006/Ring5_014
+        weight: 1
+      - path: Rotate/Legs/Gdad5/Ring5_007
+        weight: 1
+      - path: Rotate/Legs/Gdad5/Ring5_007/Ring5_015
+        weight: 1
+      - path: Sphere_001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: TurnAround
+      takeName: TurnAround
+      firstFrame: -1
+      lastFrame: 159
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cylinder
+        weight: 1
+      - path: Rotate
+        weight: 1
+      - path: Rotate/Cylinder_001
+        weight: 1
+      - path: Rotate/Empty_002
+        weight: 1
+      - path: Rotate/Legs
+        weight: 1
+      - path: Rotate/Legs/Brain
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad/Dad_088
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad/Dad_088/Dad_001
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad/Dad_088/Dad_001/Dad_089
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad/Dad_088/Dad_001/Dad_089/Dad_002
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad/Dad_088/Dad_001/Dad_089/Dad_002/Dad_090
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad/Dad_088/Dad_001/Dad_089/Dad_002/Dad_090/Dad_003
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad/Dad_088/Dad_001/Dad_089/Dad_002/Dad_090/Dad_003/Dad_091
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad/Dad_088/Dad_001/Dad_089/Dad_002/Dad_090/Dad_003/Dad_091/Dad_004
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad/Dad_088/Dad_001/Dad_089/Dad_002/Dad_090/Dad_003/Dad_091/Dad_004/Dad_092
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad/Dad_088/Dad_001/Dad_089/Dad_002/Dad_090/Dad_003/Dad_091/Dad_004/Dad_092/Dad_005
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad/Dad_088/Dad_001/Dad_089/Dad_002/Dad_090/Dad_003/Dad_091/Dad_004/Dad_092/Dad_005/Dad_093
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad/Dad_088/Dad_001/Dad_089/Dad_002/Dad_090/Dad_003/Dad_091/Dad_004/Dad_092/Dad_005/Dad_093/Dad_006
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad/Dad_088/Dad_001/Dad_089/Dad_002/Dad_090/Dad_003/Dad_091/Dad_004/Dad_092/Dad_005/Dad_093/Dad_006/Dad_094
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad/Dad_088/Dad_001/Dad_089/Dad_002/Dad_090/Dad_003/Dad_091/Dad_004/Dad_092/Dad_005/Dad_093/Dad_006/Dad_094/Dad_007
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad/Dad_088/Dad_001/Dad_089/Dad_002/Dad_090/Dad_003/Dad_091/Dad_004/Dad_092/Dad_005/Dad_093/Dad_006/Dad_094/Dad_007/Dad_095
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad/Dad_088/Dad_001/Dad_089/Dad_002/Dad_090/Dad_003/Dad_091/Dad_004/Dad_092/Dad_005/Dad_093/Dad_006/Dad_094/Dad_007/Dad_095/Dad_008
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad/Dad_088/Dad_001/Dad_089/Dad_002/Dad_090/Dad_003/Dad_091/Dad_004/Dad_092/Dad_005/Dad_093/Dad_006/Dad_094/Dad_007/Dad_095/Dad_008/Dad_096
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad/Dad_088/Dad_001/Dad_089/Dad_002/Dad_090/Dad_003/Dad_091/Dad_004/Dad_092/Dad_005/Dad_093/Dad_006/Dad_094/Dad_007/Dad_095/Dad_008/Dad_096/Dad_009
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad/Dad_088/Dad_001/Dad_089/Dad_002/Dad_090/Dad_003/Dad_091/Dad_004/Dad_092/Dad_005/Dad_093/Dad_006/Dad_094/Dad_007/Dad_095/Dad_008/Dad_096/Dad_009/Dad_097
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad/Dad_088/Dad_001/Dad_089/Dad_002/Dad_090/Dad_003/Dad_091/Dad_004/Dad_092/Dad_005/Dad_093/Dad_006/Dad_094/Dad_007/Dad_095/Dad_008/Dad_096/Dad_009/Dad_097/Dad_010
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad/Dad_088/Dad_001/Dad_089/Dad_002/Dad_090/Dad_003/Dad_091/Dad_004/Dad_092/Dad_005/Dad_093/Dad_006/Dad_094/Dad_007/Dad_095/Dad_008/Dad_096/Dad_009/Dad_097/Dad_010/Dad_098
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_011
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_011/Dad_099
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_011/Dad_099/Dad_012
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_011/Dad_099/Dad_012/Dad_100
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_011/Dad_099/Dad_012/Dad_100/Dad_013
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_011/Dad_099/Dad_012/Dad_100/Dad_013/Dad_101
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_011/Dad_099/Dad_012/Dad_100/Dad_013/Dad_101/Dad_014
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_011/Dad_099/Dad_012/Dad_100/Dad_013/Dad_101/Dad_014/Dad_102
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_011/Dad_099/Dad_012/Dad_100/Dad_013/Dad_101/Dad_014/Dad_102/Dad_015
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_011/Dad_099/Dad_012/Dad_100/Dad_013/Dad_101/Dad_014/Dad_102/Dad_015/Dad_103
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_011/Dad_099/Dad_012/Dad_100/Dad_013/Dad_101/Dad_014/Dad_102/Dad_015/Dad_103/Dad_016
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_011/Dad_099/Dad_012/Dad_100/Dad_013/Dad_101/Dad_014/Dad_102/Dad_015/Dad_103/Dad_016/Dad_104
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_011/Dad_099/Dad_012/Dad_100/Dad_013/Dad_101/Dad_014/Dad_102/Dad_015/Dad_103/Dad_016/Dad_104/Dad_017
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_011/Dad_099/Dad_012/Dad_100/Dad_013/Dad_101/Dad_014/Dad_102/Dad_015/Dad_103/Dad_016/Dad_104/Dad_017/Dad_105
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_011/Dad_099/Dad_012/Dad_100/Dad_013/Dad_101/Dad_014/Dad_102/Dad_015/Dad_103/Dad_016/Dad_104/Dad_017/Dad_105/Dad_018
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_011/Dad_099/Dad_012/Dad_100/Dad_013/Dad_101/Dad_014/Dad_102/Dad_015/Dad_103/Dad_016/Dad_104/Dad_017/Dad_105/Dad_018/Dad_106
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_011/Dad_099/Dad_012/Dad_100/Dad_013/Dad_101/Dad_014/Dad_102/Dad_015/Dad_103/Dad_016/Dad_104/Dad_017/Dad_105/Dad_018/Dad_106/Dad_019
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_011/Dad_099/Dad_012/Dad_100/Dad_013/Dad_101/Dad_014/Dad_102/Dad_015/Dad_103/Dad_016/Dad_104/Dad_017/Dad_105/Dad_018/Dad_106/Dad_019/Dad_107
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_011/Dad_099/Dad_012/Dad_100/Dad_013/Dad_101/Dad_014/Dad_102/Dad_015/Dad_103/Dad_016/Dad_104/Dad_017/Dad_105/Dad_018/Dad_106/Dad_019/Dad_107/Dad_020
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_011/Dad_099/Dad_012/Dad_100/Dad_013/Dad_101/Dad_014/Dad_102/Dad_015/Dad_103/Dad_016/Dad_104/Dad_017/Dad_105/Dad_018/Dad_106/Dad_019/Dad_107/Dad_020/Dad_108
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_011/Dad_099/Dad_012/Dad_100/Dad_013/Dad_101/Dad_014/Dad_102/Dad_015/Dad_103/Dad_016/Dad_104/Dad_017/Dad_105/Dad_018/Dad_106/Dad_019/Dad_107/Dad_020/Dad_108/Dad_021
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_011/Dad_099/Dad_012/Dad_100/Dad_013/Dad_101/Dad_014/Dad_102/Dad_015/Dad_103/Dad_016/Dad_104/Dad_017/Dad_105/Dad_018/Dad_106/Dad_019/Dad_107/Dad_020/Dad_108/Dad_021/Dad_109
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_022
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_022/Dad_110
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_022/Dad_110/Dad_023
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_022/Dad_110/Dad_023/Dad_111
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_022/Dad_110/Dad_023/Dad_111/Dad_024
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_022/Dad_110/Dad_023/Dad_111/Dad_024/Dad_112
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_022/Dad_110/Dad_023/Dad_111/Dad_024/Dad_112/Dad_025
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_022/Dad_110/Dad_023/Dad_111/Dad_024/Dad_112/Dad_025/Dad_113
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_022/Dad_110/Dad_023/Dad_111/Dad_024/Dad_112/Dad_025/Dad_113/Dad_026
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_022/Dad_110/Dad_023/Dad_111/Dad_024/Dad_112/Dad_025/Dad_113/Dad_026/Dad_114
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_022/Dad_110/Dad_023/Dad_111/Dad_024/Dad_112/Dad_025/Dad_113/Dad_026/Dad_114/Dad_027
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_022/Dad_110/Dad_023/Dad_111/Dad_024/Dad_112/Dad_025/Dad_113/Dad_026/Dad_114/Dad_027/Dad_115
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_022/Dad_110/Dad_023/Dad_111/Dad_024/Dad_112/Dad_025/Dad_113/Dad_026/Dad_114/Dad_027/Dad_115/Dad_028
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_022/Dad_110/Dad_023/Dad_111/Dad_024/Dad_112/Dad_025/Dad_113/Dad_026/Dad_114/Dad_027/Dad_115/Dad_028/Dad_116
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_022/Dad_110/Dad_023/Dad_111/Dad_024/Dad_112/Dad_025/Dad_113/Dad_026/Dad_114/Dad_027/Dad_115/Dad_028/Dad_116/Dad_029
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_022/Dad_110/Dad_023/Dad_111/Dad_024/Dad_112/Dad_025/Dad_113/Dad_026/Dad_114/Dad_027/Dad_115/Dad_028/Dad_116/Dad_029/Dad_117
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_022/Dad_110/Dad_023/Dad_111/Dad_024/Dad_112/Dad_025/Dad_113/Dad_026/Dad_114/Dad_027/Dad_115/Dad_028/Dad_116/Dad_029/Dad_117/Dad_030
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_022/Dad_110/Dad_023/Dad_111/Dad_024/Dad_112/Dad_025/Dad_113/Dad_026/Dad_114/Dad_027/Dad_115/Dad_028/Dad_116/Dad_029/Dad_117/Dad_030/Dad_118
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_022/Dad_110/Dad_023/Dad_111/Dad_024/Dad_112/Dad_025/Dad_113/Dad_026/Dad_114/Dad_027/Dad_115/Dad_028/Dad_116/Dad_029/Dad_117/Dad_030/Dad_118/Dad_031
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_022/Dad_110/Dad_023/Dad_111/Dad_024/Dad_112/Dad_025/Dad_113/Dad_026/Dad_114/Dad_027/Dad_115/Dad_028/Dad_116/Dad_029/Dad_117/Dad_030/Dad_118/Dad_031/Dad_119
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_022/Dad_110/Dad_023/Dad_111/Dad_024/Dad_112/Dad_025/Dad_113/Dad_026/Dad_114/Dad_027/Dad_115/Dad_028/Dad_116/Dad_029/Dad_117/Dad_030/Dad_118/Dad_031/Dad_119/Dad_032
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_022/Dad_110/Dad_023/Dad_111/Dad_024/Dad_112/Dad_025/Dad_113/Dad_026/Dad_114/Dad_027/Dad_115/Dad_028/Dad_116/Dad_029/Dad_117/Dad_030/Dad_118/Dad_031/Dad_119/Dad_032/Dad_120
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_033
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_033/Dad_121
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_033/Dad_121/Dad_034
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_033/Dad_121/Dad_034/Dad_122
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_033/Dad_121/Dad_034/Dad_122/Dad_035
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_033/Dad_121/Dad_034/Dad_122/Dad_035/Dad_123
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_033/Dad_121/Dad_034/Dad_122/Dad_035/Dad_123/Dad_036
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_033/Dad_121/Dad_034/Dad_122/Dad_035/Dad_123/Dad_036/Dad_124
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_033/Dad_121/Dad_034/Dad_122/Dad_035/Dad_123/Dad_036/Dad_124/Dad_037
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_033/Dad_121/Dad_034/Dad_122/Dad_035/Dad_123/Dad_036/Dad_124/Dad_037/Dad_125
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_033/Dad_121/Dad_034/Dad_122/Dad_035/Dad_123/Dad_036/Dad_124/Dad_037/Dad_125/Dad_038
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_033/Dad_121/Dad_034/Dad_122/Dad_035/Dad_123/Dad_036/Dad_124/Dad_037/Dad_125/Dad_038/Dad_126
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_033/Dad_121/Dad_034/Dad_122/Dad_035/Dad_123/Dad_036/Dad_124/Dad_037/Dad_125/Dad_038/Dad_126/Dad_039
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_033/Dad_121/Dad_034/Dad_122/Dad_035/Dad_123/Dad_036/Dad_124/Dad_037/Dad_125/Dad_038/Dad_126/Dad_039/Dad_127
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_033/Dad_121/Dad_034/Dad_122/Dad_035/Dad_123/Dad_036/Dad_124/Dad_037/Dad_125/Dad_038/Dad_126/Dad_039/Dad_127/Dad_040
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_033/Dad_121/Dad_034/Dad_122/Dad_035/Dad_123/Dad_036/Dad_124/Dad_037/Dad_125/Dad_038/Dad_126/Dad_039/Dad_127/Dad_040/Dad_128
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_033/Dad_121/Dad_034/Dad_122/Dad_035/Dad_123/Dad_036/Dad_124/Dad_037/Dad_125/Dad_038/Dad_126/Dad_039/Dad_127/Dad_040/Dad_128/Dad_041
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_033/Dad_121/Dad_034/Dad_122/Dad_035/Dad_123/Dad_036/Dad_124/Dad_037/Dad_125/Dad_038/Dad_126/Dad_039/Dad_127/Dad_040/Dad_128/Dad_041/Dad_129
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_033/Dad_121/Dad_034/Dad_122/Dad_035/Dad_123/Dad_036/Dad_124/Dad_037/Dad_125/Dad_038/Dad_126/Dad_039/Dad_127/Dad_040/Dad_128/Dad_041/Dad_129/Dad_042
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_033/Dad_121/Dad_034/Dad_122/Dad_035/Dad_123/Dad_036/Dad_124/Dad_037/Dad_125/Dad_038/Dad_126/Dad_039/Dad_127/Dad_040/Dad_128/Dad_041/Dad_129/Dad_042/Dad_130
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_033/Dad_121/Dad_034/Dad_122/Dad_035/Dad_123/Dad_036/Dad_124/Dad_037/Dad_125/Dad_038/Dad_126/Dad_039/Dad_127/Dad_040/Dad_128/Dad_041/Dad_129/Dad_042/Dad_130/Dad_043
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_033/Dad_121/Dad_034/Dad_122/Dad_035/Dad_123/Dad_036/Dad_124/Dad_037/Dad_125/Dad_038/Dad_126/Dad_039/Dad_127/Dad_040/Dad_128/Dad_041/Dad_129/Dad_042/Dad_130/Dad_043/Dad_131
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_044
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_044/Dad_132
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_044/Dad_132/Dad_045
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_044/Dad_132/Dad_045/Dad_133
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_044/Dad_132/Dad_045/Dad_133/Dad_046
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_044/Dad_132/Dad_045/Dad_133/Dad_046/Dad_134
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_044/Dad_132/Dad_045/Dad_133/Dad_046/Dad_134/Dad_047
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_044/Dad_132/Dad_045/Dad_133/Dad_046/Dad_134/Dad_047/Dad_135
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_044/Dad_132/Dad_045/Dad_133/Dad_046/Dad_134/Dad_047/Dad_135/Dad_048
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_044/Dad_132/Dad_045/Dad_133/Dad_046/Dad_134/Dad_047/Dad_135/Dad_048/Dad_136
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_044/Dad_132/Dad_045/Dad_133/Dad_046/Dad_134/Dad_047/Dad_135/Dad_048/Dad_136/Dad_049
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_044/Dad_132/Dad_045/Dad_133/Dad_046/Dad_134/Dad_047/Dad_135/Dad_048/Dad_136/Dad_049/Dad_137
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_044/Dad_132/Dad_045/Dad_133/Dad_046/Dad_134/Dad_047/Dad_135/Dad_048/Dad_136/Dad_049/Dad_137/Dad_050
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_044/Dad_132/Dad_045/Dad_133/Dad_046/Dad_134/Dad_047/Dad_135/Dad_048/Dad_136/Dad_049/Dad_137/Dad_050/Dad_138
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_044/Dad_132/Dad_045/Dad_133/Dad_046/Dad_134/Dad_047/Dad_135/Dad_048/Dad_136/Dad_049/Dad_137/Dad_050/Dad_138/Dad_051
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_044/Dad_132/Dad_045/Dad_133/Dad_046/Dad_134/Dad_047/Dad_135/Dad_048/Dad_136/Dad_049/Dad_137/Dad_050/Dad_138/Dad_051/Dad_139
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_044/Dad_132/Dad_045/Dad_133/Dad_046/Dad_134/Dad_047/Dad_135/Dad_048/Dad_136/Dad_049/Dad_137/Dad_050/Dad_138/Dad_051/Dad_139/Dad_052
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_044/Dad_132/Dad_045/Dad_133/Dad_046/Dad_134/Dad_047/Dad_135/Dad_048/Dad_136/Dad_049/Dad_137/Dad_050/Dad_138/Dad_051/Dad_139/Dad_052/Dad_140
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_044/Dad_132/Dad_045/Dad_133/Dad_046/Dad_134/Dad_047/Dad_135/Dad_048/Dad_136/Dad_049/Dad_137/Dad_050/Dad_138/Dad_051/Dad_139/Dad_052/Dad_140/Dad_053
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_044/Dad_132/Dad_045/Dad_133/Dad_046/Dad_134/Dad_047/Dad_135/Dad_048/Dad_136/Dad_049/Dad_137/Dad_050/Dad_138/Dad_051/Dad_139/Dad_052/Dad_140/Dad_053/Dad_141
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_044/Dad_132/Dad_045/Dad_133/Dad_046/Dad_134/Dad_047/Dad_135/Dad_048/Dad_136/Dad_049/Dad_137/Dad_050/Dad_138/Dad_051/Dad_139/Dad_052/Dad_140/Dad_053/Dad_141/Dad_054
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_044/Dad_132/Dad_045/Dad_133/Dad_046/Dad_134/Dad_047/Dad_135/Dad_048/Dad_136/Dad_049/Dad_137/Dad_050/Dad_138/Dad_051/Dad_139/Dad_052/Dad_140/Dad_053/Dad_141/Dad_054/Dad_142
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_055
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_055/Dad_143
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_055/Dad_143/Dad_056
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_055/Dad_143/Dad_056/Dad_144
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_055/Dad_143/Dad_056/Dad_144/Dad_057
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_055/Dad_143/Dad_056/Dad_144/Dad_057/Dad_145
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_055/Dad_143/Dad_056/Dad_144/Dad_057/Dad_145/Dad_058
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_055/Dad_143/Dad_056/Dad_144/Dad_057/Dad_145/Dad_058/Dad_146
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_055/Dad_143/Dad_056/Dad_144/Dad_057/Dad_145/Dad_058/Dad_146/Dad_059
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_055/Dad_143/Dad_056/Dad_144/Dad_057/Dad_145/Dad_058/Dad_146/Dad_059/Dad_147
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_055/Dad_143/Dad_056/Dad_144/Dad_057/Dad_145/Dad_058/Dad_146/Dad_059/Dad_147/Dad_060
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_055/Dad_143/Dad_056/Dad_144/Dad_057/Dad_145/Dad_058/Dad_146/Dad_059/Dad_147/Dad_060/Dad_148
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_055/Dad_143/Dad_056/Dad_144/Dad_057/Dad_145/Dad_058/Dad_146/Dad_059/Dad_147/Dad_060/Dad_148/Dad_061
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_055/Dad_143/Dad_056/Dad_144/Dad_057/Dad_145/Dad_058/Dad_146/Dad_059/Dad_147/Dad_060/Dad_148/Dad_061/Dad_149
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_055/Dad_143/Dad_056/Dad_144/Dad_057/Dad_145/Dad_058/Dad_146/Dad_059/Dad_147/Dad_060/Dad_148/Dad_061/Dad_149/Dad_062
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_055/Dad_143/Dad_056/Dad_144/Dad_057/Dad_145/Dad_058/Dad_146/Dad_059/Dad_147/Dad_060/Dad_148/Dad_061/Dad_149/Dad_062/Dad_150
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_055/Dad_143/Dad_056/Dad_144/Dad_057/Dad_145/Dad_058/Dad_146/Dad_059/Dad_147/Dad_060/Dad_148/Dad_061/Dad_149/Dad_062/Dad_150/Dad_063
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_055/Dad_143/Dad_056/Dad_144/Dad_057/Dad_145/Dad_058/Dad_146/Dad_059/Dad_147/Dad_060/Dad_148/Dad_061/Dad_149/Dad_062/Dad_150/Dad_063/Dad_151
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_055/Dad_143/Dad_056/Dad_144/Dad_057/Dad_145/Dad_058/Dad_146/Dad_059/Dad_147/Dad_060/Dad_148/Dad_061/Dad_149/Dad_062/Dad_150/Dad_063/Dad_151/Dad_064
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_055/Dad_143/Dad_056/Dad_144/Dad_057/Dad_145/Dad_058/Dad_146/Dad_059/Dad_147/Dad_060/Dad_148/Dad_061/Dad_149/Dad_062/Dad_150/Dad_063/Dad_151/Dad_064/Dad_152
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_055/Dad_143/Dad_056/Dad_144/Dad_057/Dad_145/Dad_058/Dad_146/Dad_059/Dad_147/Dad_060/Dad_148/Dad_061/Dad_149/Dad_062/Dad_150/Dad_063/Dad_151/Dad_064/Dad_152/Dad_065
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_055/Dad_143/Dad_056/Dad_144/Dad_057/Dad_145/Dad_058/Dad_146/Dad_059/Dad_147/Dad_060/Dad_148/Dad_061/Dad_149/Dad_062/Dad_150/Dad_063/Dad_151/Dad_064/Dad_152/Dad_065/Dad_153
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_066
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_066/Dad_154
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_066/Dad_154/Dad_067
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_066/Dad_154/Dad_067/Dad_155
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_066/Dad_154/Dad_067/Dad_155/Dad_068
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_066/Dad_154/Dad_067/Dad_155/Dad_068/Dad_156
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_066/Dad_154/Dad_067/Dad_155/Dad_068/Dad_156/Dad_069
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_066/Dad_154/Dad_067/Dad_155/Dad_068/Dad_156/Dad_069/Dad_157
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_066/Dad_154/Dad_067/Dad_155/Dad_068/Dad_156/Dad_069/Dad_157/Dad_070
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_066/Dad_154/Dad_067/Dad_155/Dad_068/Dad_156/Dad_069/Dad_157/Dad_070/Dad_158
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_066/Dad_154/Dad_067/Dad_155/Dad_068/Dad_156/Dad_069/Dad_157/Dad_070/Dad_158/Dad_071
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_066/Dad_154/Dad_067/Dad_155/Dad_068/Dad_156/Dad_069/Dad_157/Dad_070/Dad_158/Dad_071/Dad_159
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_066/Dad_154/Dad_067/Dad_155/Dad_068/Dad_156/Dad_069/Dad_157/Dad_070/Dad_158/Dad_071/Dad_159/Dad_072
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_066/Dad_154/Dad_067/Dad_155/Dad_068/Dad_156/Dad_069/Dad_157/Dad_070/Dad_158/Dad_071/Dad_159/Dad_072/Dad_160
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_066/Dad_154/Dad_067/Dad_155/Dad_068/Dad_156/Dad_069/Dad_157/Dad_070/Dad_158/Dad_071/Dad_159/Dad_072/Dad_160/Dad_073
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_066/Dad_154/Dad_067/Dad_155/Dad_068/Dad_156/Dad_069/Dad_157/Dad_070/Dad_158/Dad_071/Dad_159/Dad_072/Dad_160/Dad_073/Dad_161
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_066/Dad_154/Dad_067/Dad_155/Dad_068/Dad_156/Dad_069/Dad_157/Dad_070/Dad_158/Dad_071/Dad_159/Dad_072/Dad_160/Dad_073/Dad_161/Dad_074
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_066/Dad_154/Dad_067/Dad_155/Dad_068/Dad_156/Dad_069/Dad_157/Dad_070/Dad_158/Dad_071/Dad_159/Dad_072/Dad_160/Dad_073/Dad_161/Dad_074/Dad_162
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_066/Dad_154/Dad_067/Dad_155/Dad_068/Dad_156/Dad_069/Dad_157/Dad_070/Dad_158/Dad_071/Dad_159/Dad_072/Dad_160/Dad_073/Dad_161/Dad_074/Dad_162/Dad_075
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_066/Dad_154/Dad_067/Dad_155/Dad_068/Dad_156/Dad_069/Dad_157/Dad_070/Dad_158/Dad_071/Dad_159/Dad_072/Dad_160/Dad_073/Dad_161/Dad_074/Dad_162/Dad_075/Dad_163
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_066/Dad_154/Dad_067/Dad_155/Dad_068/Dad_156/Dad_069/Dad_157/Dad_070/Dad_158/Dad_071/Dad_159/Dad_072/Dad_160/Dad_073/Dad_161/Dad_074/Dad_162/Dad_075/Dad_163/Dad_076
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_066/Dad_154/Dad_067/Dad_155/Dad_068/Dad_156/Dad_069/Dad_157/Dad_070/Dad_158/Dad_071/Dad_159/Dad_072/Dad_160/Dad_073/Dad_161/Dad_074/Dad_162/Dad_075/Dad_163/Dad_076/Dad_164
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_077
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_077/Dad_165
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_077/Dad_165/Dad_078
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_077/Dad_165/Dad_078/Dad_166
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_077/Dad_165/Dad_078/Dad_166/Dad_079
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_077/Dad_165/Dad_078/Dad_166/Dad_079/Dad_167
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_077/Dad_165/Dad_078/Dad_166/Dad_079/Dad_167/Dad_080
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_077/Dad_165/Dad_078/Dad_166/Dad_079/Dad_167/Dad_080/Dad_168
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_077/Dad_165/Dad_078/Dad_166/Dad_079/Dad_167/Dad_080/Dad_168/Dad_081
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_077/Dad_165/Dad_078/Dad_166/Dad_079/Dad_167/Dad_080/Dad_168/Dad_081/Dad_169
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_077/Dad_165/Dad_078/Dad_166/Dad_079/Dad_167/Dad_080/Dad_168/Dad_081/Dad_169/Dad_082
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_077/Dad_165/Dad_078/Dad_166/Dad_079/Dad_167/Dad_080/Dad_168/Dad_081/Dad_169/Dad_082/Dad_170
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_077/Dad_165/Dad_078/Dad_166/Dad_079/Dad_167/Dad_080/Dad_168/Dad_081/Dad_169/Dad_082/Dad_170/Dad_083
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_077/Dad_165/Dad_078/Dad_166/Dad_079/Dad_167/Dad_080/Dad_168/Dad_081/Dad_169/Dad_082/Dad_170/Dad_083/Dad_171
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_077/Dad_165/Dad_078/Dad_166/Dad_079/Dad_167/Dad_080/Dad_168/Dad_081/Dad_169/Dad_082/Dad_170/Dad_083/Dad_171/Dad_084
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_077/Dad_165/Dad_078/Dad_166/Dad_079/Dad_167/Dad_080/Dad_168/Dad_081/Dad_169/Dad_082/Dad_170/Dad_083/Dad_171/Dad_084/Dad_172
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_077/Dad_165/Dad_078/Dad_166/Dad_079/Dad_167/Dad_080/Dad_168/Dad_081/Dad_169/Dad_082/Dad_170/Dad_083/Dad_171/Dad_084/Dad_172/Dad_085
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_077/Dad_165/Dad_078/Dad_166/Dad_079/Dad_167/Dad_080/Dad_168/Dad_081/Dad_169/Dad_082/Dad_170/Dad_083/Dad_171/Dad_084/Dad_172/Dad_085/Dad_173
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_077/Dad_165/Dad_078/Dad_166/Dad_079/Dad_167/Dad_080/Dad_168/Dad_081/Dad_169/Dad_082/Dad_170/Dad_083/Dad_171/Dad_084/Dad_172/Dad_085/Dad_173/Dad_086
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_077/Dad_165/Dad_078/Dad_166/Dad_079/Dad_167/Dad_080/Dad_168/Dad_081/Dad_169/Dad_082/Dad_170/Dad_083/Dad_171/Dad_084/Dad_172/Dad_085/Dad_173/Dad_086/Dad_174
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_077/Dad_165/Dad_078/Dad_166/Dad_079/Dad_167/Dad_080/Dad_168/Dad_081/Dad_169/Dad_082/Dad_170/Dad_083/Dad_171/Dad_084/Dad_172/Dad_085/Dad_173/Dad_086/Dad_174/Dad_087
+        weight: 1
+      - path: Rotate/Legs/Brain/Dad_077/Dad_165/Dad_078/Dad_166/Dad_079/Dad_167/Dad_080/Dad_168/Dad_081/Dad_169/Dad_082/Dad_170/Dad_083/Dad_171/Dad_084/Dad_172/Dad_085/Dad_173/Dad_086/Dad_174/Dad_087/Dad_175
+        weight: 1
+      - path: Rotate/Legs/Gdad1
+        weight: 1
+      - path: Rotate/Legs/Gdad1/Ring1
+        weight: 1
+      - path: Rotate/Legs/Gdad1/Ring1/Ring1_008
+        weight: 1
+      - path: Rotate/Legs/Gdad1/Ring1_001
+        weight: 1
+      - path: Rotate/Legs/Gdad1/Ring1_001/Ring1_009
+        weight: 1
+      - path: Rotate/Legs/Gdad1/Ring1_002
+        weight: 1
+      - path: Rotate/Legs/Gdad1/Ring1_002/Ring1_010
+        weight: 1
+      - path: Rotate/Legs/Gdad1/Ring1_003
+        weight: 1
+      - path: Rotate/Legs/Gdad1/Ring1_003/Ring1_011
+        weight: 1
+      - path: Rotate/Legs/Gdad1/Ring1_004
+        weight: 1
+      - path: Rotate/Legs/Gdad1/Ring1_004/Ring1_012
+        weight: 1
+      - path: Rotate/Legs/Gdad1/Ring1_005
+        weight: 1
+      - path: Rotate/Legs/Gdad1/Ring1_005/Ring1_013
+        weight: 1
+      - path: Rotate/Legs/Gdad1/Ring1_006
+        weight: 1
+      - path: Rotate/Legs/Gdad1/Ring1_006/Ring1_014
+        weight: 1
+      - path: Rotate/Legs/Gdad1/Ring1_007
+        weight: 1
+      - path: Rotate/Legs/Gdad1/Ring1_007/Ring1_015
+        weight: 1
+      - path: Rotate/Legs/Gdad2
+        weight: 1
+      - path: Rotate/Legs/Gdad2/Ring2
+        weight: 1
+      - path: Rotate/Legs/Gdad2/Ring2/Ring2_008
+        weight: 1
+      - path: Rotate/Legs/Gdad2/Ring2_001
+        weight: 1
+      - path: Rotate/Legs/Gdad2/Ring2_001/Ring2_009
+        weight: 1
+      - path: Rotate/Legs/Gdad2/Ring2_002
+        weight: 1
+      - path: Rotate/Legs/Gdad2/Ring2_002/Ring2_010
+        weight: 1
+      - path: Rotate/Legs/Gdad2/Ring2_003
+        weight: 1
+      - path: Rotate/Legs/Gdad2/Ring2_003/Ring2_011
+        weight: 1
+      - path: Rotate/Legs/Gdad2/Ring2_005
+        weight: 1
+      - path: Rotate/Legs/Gdad2/Ring2_005/Ring2_013
+        weight: 1
+      - path: Rotate/Legs/Gdad2/Ring2_006
+        weight: 1
+      - path: Rotate/Legs/Gdad2/Ring2_006/Ring2_014
+        weight: 1
+      - path: Rotate/Legs/Gdad2/Ring2_007
+        weight: 1
+      - path: Rotate/Legs/Gdad2/Ring2_007/Ring2_015
+        weight: 1
+      - path: Rotate/Legs/Gdad3
+        weight: 1
+      - path: Rotate/Legs/Gdad3/Ring3
+        weight: 1
+      - path: Rotate/Legs/Gdad3/Ring3/Ring3_008
+        weight: 1
+      - path: Rotate/Legs/Gdad3/Ring3_001
+        weight: 1
+      - path: Rotate/Legs/Gdad3/Ring3_001/Ring3_009
+        weight: 1
+      - path: Rotate/Legs/Gdad3/Ring3_002
+        weight: 1
+      - path: Rotate/Legs/Gdad3/Ring3_002/Ring3_010
+        weight: 1
+      - path: Rotate/Legs/Gdad3/Ring3_003
+        weight: 1
+      - path: Rotate/Legs/Gdad3/Ring3_003/Ring3_011
+        weight: 1
+      - path: Rotate/Legs/Gdad3/Ring3_004
+        weight: 1
+      - path: Rotate/Legs/Gdad3/Ring3_004/Ring3_012
+        weight: 1
+      - path: Rotate/Legs/Gdad3/Ring3_005
+        weight: 1
+      - path: Rotate/Legs/Gdad3/Ring3_005/Ring3_013
+        weight: 1
+      - path: Rotate/Legs/Gdad3/Ring3_006
+        weight: 1
+      - path: Rotate/Legs/Gdad3/Ring3_006/Ring3_014
+        weight: 1
+      - path: Rotate/Legs/Gdad3/Ring3_007
+        weight: 1
+      - path: Rotate/Legs/Gdad3/Ring3_007/Ring3_015
+        weight: 1
+      - path: Rotate/Legs/Gdad4
+        weight: 1
+      - path: Rotate/Legs/Gdad4/Ring4
+        weight: 1
+      - path: Rotate/Legs/Gdad4/Ring4/Ring4_008
+        weight: 1
+      - path: Rotate/Legs/Gdad4/Ring4_001
+        weight: 1
+      - path: Rotate/Legs/Gdad4/Ring4_001/Ring4_009
+        weight: 1
+      - path: Rotate/Legs/Gdad4/Ring4_002
+        weight: 1
+      - path: Rotate/Legs/Gdad4/Ring4_002/Ring4_010
+        weight: 1
+      - path: Rotate/Legs/Gdad4/Ring4_003
+        weight: 1
+      - path: Rotate/Legs/Gdad4/Ring4_003/Ring4_011
+        weight: 1
+      - path: Rotate/Legs/Gdad4/Ring4_004
+        weight: 1
+      - path: Rotate/Legs/Gdad4/Ring4_004/Ring4_012
+        weight: 1
+      - path: Rotate/Legs/Gdad4/Ring4_005
+        weight: 1
+      - path: Rotate/Legs/Gdad4/Ring4_005/Ring4_013
+        weight: 1
+      - path: Rotate/Legs/Gdad4/Ring4_006
+        weight: 1
+      - path: Rotate/Legs/Gdad4/Ring4_006/Ring4_014
+        weight: 1
+      - path: Rotate/Legs/Gdad4/Ring4_007
+        weight: 1
+      - path: Rotate/Legs/Gdad4/Ring4_007/Ring4_015
+        weight: 1
+      - path: Rotate/Legs/Gdad5
+        weight: 1
+      - path: Rotate/Legs/Gdad5/Ring5
+        weight: 1
+      - path: Rotate/Legs/Gdad5/Ring5/Ring5_008
+        weight: 1
+      - path: Rotate/Legs/Gdad5/Ring5_001
+        weight: 1
+      - path: Rotate/Legs/Gdad5/Ring5_001/Ring5_009
+        weight: 1
+      - path: Rotate/Legs/Gdad5/Ring5_002
+        weight: 1
+      - path: Rotate/Legs/Gdad5/Ring5_002/Ring5_010
+        weight: 1
+      - path: Rotate/Legs/Gdad5/Ring5_003
+        weight: 1
+      - path: Rotate/Legs/Gdad5/Ring5_003/Ring5_011
+        weight: 1
+      - path: Rotate/Legs/Gdad5/Ring5_004
+        weight: 1
+      - path: Rotate/Legs/Gdad5/Ring5_004/Ring5_012
+        weight: 1
+      - path: Rotate/Legs/Gdad5/Ring5_005
+        weight: 1
+      - path: Rotate/Legs/Gdad5/Ring5_005/Ring5_013
+        weight: 1
+      - path: Rotate/Legs/Gdad5/Ring5_006
+        weight: 1
+      - path: Rotate/Legs/Gdad5/Ring5_006/Ring5_014
+        weight: 1
+      - path: Rotate/Legs/Gdad5/Ring5_007
+        weight: 1
+      - path: Rotate/Legs/Gdad5/Ring5_007/Ring5_015
+        weight: 1
+      - path: Sphere_001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 0
+    splitTangentsAcrossUV: 1
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

@@ -1,0 +1,2 @@
+Assets/Menu/NewButtons/Lab1/MonoDamageUP3.png
+Assets/Menu/NewButtons/Lab2/SatDamageUP.png

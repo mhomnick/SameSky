@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{EC94F2CF-2CBC-33B3-3C34-1DC53CA263AC}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_1_1;UNITY_5_1;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_LICENSE;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_EDITOR_METRICS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\AsteroidLaser.js" />
+     <Compile Include="Assets\AsteroidLaserLine.js" />
+     <Compile Include="Assets\AtmoExtendorsButton.js" />
+     <Compile Include="Assets\BlackHoleButton.js" />
+     <Compile Include="Assets\BonusDropper.js" />
+     <Compile Include="Assets\BonusFloat.js" />
+     <Compile Include="Assets\BuildingButton.js" />
+     <Compile Include="Assets\ButtonRotator.js" />
+     <Compile Include="Assets\CameraShake.js" />
+     <Compile Include="Assets\CaptureSat.js" />
+     <Compile Include="Assets\ExitButton.js" />
+     <Compile Include="Assets\MissileFacButton.js" />
+     <Compile Include="Assets\ModuleMover.js" />
+     <Compile Include="Assets\NewGameButton.js" />
+     <Compile Include="Assets\SatDamButton.js" />
+     <Compile Include="Assets\SatRangeButtonNEW.js" />
+     <Compile Include="Assets\SatReclamationButton.js" />
+     <Compile Include="Assets\SatShootSpeedButton.js" />
+     <Compile Include="Assets\Scripts\AsteroidCollider.js" />
+     <Compile Include="Assets\Scripts\AsteroidMover.js" />
+     <Compile Include="Assets\Scripts\AsteroidOrbit.js" />
+     <Compile Include="Assets\Scripts\AsteroidRedirect.js" />
+     <Compile Include="Assets\Scripts\AsteroidRedirectButton.js" />
+     <Compile Include="Assets\Scripts\AsteroidRotator.js" />
+     <Compile Include="Assets\Scripts\AtmoDrainer.js" />
+     <Compile Include="Assets\Scripts\AtmoHealth.js" />
+     <Compile Include="Assets\Scripts\AtmoMaxButton.js" />
+     <Compile Include="Assets\Scripts\AtmoPump.js" />
+     <Compile Include="Assets\Scripts\BlackHole.js" />
+     <Compile Include="Assets\Scripts\BlackHoleJelly.js" />
+     <Compile Include="Assets\Scripts\BlackHoleMissile.js" />
+     <Compile Include="Assets\Scripts\BuildingCollider.js" />
+     <Compile Include="Assets\Scripts\BuildingControl.js" />
+     <Compile Include="Assets\Scripts\CameraRotate.js" />
+     <Compile Include="Assets\Scripts\CameraRotateAccel.js" />
+     <Compile Include="Assets\Scripts\CameraRotateNew.js" />
+     <Compile Include="Assets\Scripts\CameraRotateTouch.js" />
+     <Compile Include="Assets\Scripts\CannonButtonTest.js" />
+     <Compile Include="Assets\Scripts\CannonControl.js" />
+     <Compile Include="Assets\Scripts\CarbonCreditsButton.js" />
+     <Compile Include="Assets\Scripts\City1Animation.js" />
+     <Compile Include="Assets\Scripts\City2Animation.js" />
+     <Compile Include="Assets\Scripts\CloudSpawn.js" />
+     <Compile Include="Assets\Scripts\ClusterHome.js" />
+     <Compile Include="Assets\Scripts\DestroyByBoundary.js" />
+     <Compile Include="Assets\Scripts\DestroyByContact.js" />
+     <Compile Include="Assets\Scripts\EngineeringButton.js" />
+     <Compile Include="Assets\Scripts\EnvironmentalismButton.js" />
+     <Compile Include="Assets\Scripts\ExitText.js" />
+     <Compile Include="Assets\Scripts\GameController.js" />
+     <Compile Include="Assets\Scripts\GuideDestroyer.js" />
+     <Compile Include="Assets\Scripts\JellyParticleHit.js" />
+     <Compile Include="Assets\Scripts\JellyfishHealth.js" />
+     <Compile Include="Assets\Scripts\JellyfishMover.js" />
+     <Compile Include="Assets\Scripts\LabController.js" />
+     <Compile Include="Assets\Scripts\LabZoomCollider.js" />
+     <Compile Include="Assets\Scripts\LabZoomer.js" />
+     <Compile Include="Assets\Scripts\LaserSight.js" />
+     <Compile Include="Assets\Scripts\LeftPeriph.js" />
+     <Compile Include="Assets\Scripts\LightPulser.js" />
+     <Compile Include="Assets\Scripts\MIssileHolderMover.js" />
+     <Compile Include="Assets\Scripts\Menu\AsteroidCaptureButton.js" />
+     <Compile Include="Assets\Scripts\Menu\LaserAttackSpeedButton.js" />
+     <Compile Include="Assets\Scripts\Menu\MIssilePiercingButton.js" />
+     <Compile Include="Assets\Scripts\Menu\MenuButton1.js" />
+     <Compile Include="Assets\Scripts\Menu\MenuButton12.js" />
+     <Compile Include="Assets\Scripts\Menu\MenuButtonHoming.js" />
+     <Compile Include="Assets\Scripts\Menu\MenuButtonLaser.js" />
+     <Compile Include="Assets\Scripts\Menu\MenuButtonReload1.js" />
+     <Compile Include="Assets\Scripts\Menu\MissileClusterButton.js" />
+     <Compile Include="Assets\Scripts\Menu\MissileSlowDownButton.js" />
+     <Compile Include="Assets\Scripts\Menu\MonoDamageButton.js" />
+     <Compile Include="Assets\Scripts\Menu\SalvageButton.js" />
+     <Compile Include="Assets\Scripts\Menu\SatDamageButton.js" />
+     <Compile Include="Assets\Scripts\Menu\SatEnemySlowDownButton.js" />
+     <Compile Include="Assets\Scripts\Menu\SatRangeButton.js" />
+     <Compile Include="Assets\Scripts\Menu\SatSalvageButton.js" />
+     <Compile Include="Assets\Scripts\Menu\SatTurboButton.js" />
+     <Compile Include="Assets\Scripts\Menu\TimeDilationButton.js" />
+     <Compile Include="Assets\Scripts\MineController.js" />
+     <Compile Include="Assets\Scripts\MineSpeedButton.js" />
+     <Compile Include="Assets\Scripts\MissileCircle.js" />
+     <Compile Include="Assets\Scripts\MissileFactory.js" />
+     <Compile Include="Assets\Scripts\MissileHolder.js" />
+     <Compile Include="Assets\Scripts\MissileHome.js" />
+     <Compile Include="Assets\Scripts\MissileMaterialsButton.js" />
+     <Compile Include="Assets\Scripts\MissileMover.js" />
+     <Compile Include="Assets\Scripts\MissileRotator.js" />
+     <Compile Include="Assets\Scripts\MissileScaler.js" />
+     <Compile Include="Assets\Scripts\MonorailCollider.js" />
+     <Compile Include="Assets\Scripts\MonorailHolo.js" />
+     <Compile Include="Assets\Scripts\NewGameText.js" />
+     <Compile Include="Assets\Scripts\PauseMenu.js" />
+     <Compile Include="Assets\Scripts\Pivot70Rotate.js" />
+     <Compile Include="Assets\Scripts\PumpRotator.js" />
+     <Compile Include="Assets\Scripts\RandomRotator.js" />
+     <Compile Include="Assets\Scripts\RealPause.js" />
+     <Compile Include="Assets\Scripts\ResearchTree.js" />
+     <Compile Include="Assets\Scripts\ResearchTree\AsteroidCapture.js" />
+     <Compile Include="Assets\Scripts\ResearchTree\AtmoPumpButton.js" />
+     <Compile Include="Assets\Scripts\ResearchTree\MonoDamage.js" />
+     <Compile Include="Assets\Scripts\ResearchTree\MonoHoming.js" />
+     <Compile Include="Assets\Scripts\ResearchTree\MonoReload.js" />
+     <Compile Include="Assets\Scripts\ResearchTree\MonoSpeed.js" />
+     <Compile Include="Assets\Scripts\ResearchTree\SalvageButtonNEW.js" />
+     <Compile Include="Assets\Scripts\ResourceCollectorsButton.js" />
+     <Compile Include="Assets\Scripts\ResourceController.js" />
+     <Compile Include="Assets\Scripts\RightPeriph.js" />
+     <Compile Include="Assets\Scripts\SatEater.js" />
+     <Compile Include="Assets\Scripts\SatGuideAtoB.js" />
+     <Compile Include="Assets\Scripts\SatLookAt.js" />
+     <Compile Include="Assets\Scripts\SatRedirectMover.js" />
+     <Compile Include="Assets\Scripts\SatelliteAimer.js" />
+     <Compile Include="Assets\Scripts\SatelliteFactory.js" />
+     <Compile Include="Assets\Scripts\SatelliteMoverNew.js" />
+     <Compile Include="Assets\Scripts\SatelliteRotator.js" />
+     <Compile Include="Assets\Scripts\SatelliteShootNew.js" />
+     <Compile Include="Assets\Scripts\ScreenFader.js" />
+     <Compile Include="Assets\Scripts\SingularityBombButton.js" />
+     <Compile Include="Assets\Scripts\SpawnRotate.js" />
+     <Compile Include="Assets\Scripts\SubEmitterTest.js" />
+     <Compile Include="Assets\Scripts\TankHealth.js" />
+     <Compile Include="Assets\Scripts\TankMover.js" />
+     <Compile Include="Assets\Scripts\TankParticleHit.js" />
+     <Compile Include="Assets\Scripts\TankTest.js" />
+     <Compile Include="Assets\Scripts\TestButton.js" />
+     <Compile Include="Assets\Scripts\TextFade.js" />
+     <Compile Include="Assets\Scripts\TreeRotator.js" />
+     <Compile Include="Assets\Scripts\Zoom.js" />
+     <Compile Include="Assets\Scripts\atmoSplodeLeft.js" />
+     <Compile Include="Assets\SpiderHealth.js" />
+     <Compile Include="Assets\SpiderMover.js" />
+     <Compile Include="Assets\StoppingPowerButton.js" />
+     <Compile Include="Assets\StoryTextController.js" />
+     <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
+     <None Include="Assets\Standard Assets\Effects\Projectors\Guidelines.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\MotionBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\RadialBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SSAOShader.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CreaseApply.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\MotionBlurClear.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SepiaToneEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\VortexEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\VignettingShader.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\PrepareSunShaftsBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SimpleClear.shader" />
+     <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+     <None Include="Assets\Activity Indicators\ReadMe_txt.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{3F6858B0-28C0-322D-9205-9CA847DDD059}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{1CFFBC23-5CA0-CB1C-4526-E513AC854F17}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

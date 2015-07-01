@@ -1,0 +1,47 @@
+Initialize engine version: 4.6.1f1 (d1db7a1b5196)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [nvd3dum.dll 9.18.13.3165]
+    Renderer: NVIDIA GeForce GT 740M        
+    Vendor:   NVIDIA
+    VRAM:     1972 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 INTZ=1 RAWZ=0 NULL=1 RESZ=0 SlowINTZ=0
+Default GameObject Tag: AsteroidSpawn already registered
+ 
+(Filename:  Line: 67)
+
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\ktpv\Dropbox\Game\Defendroid360\StarWars\SASK_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\ktpv\Dropbox\Game\Defendroid360\StarWars\SASK_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\ktpv\Dropbox\Game\Defendroid360\StarWars\SASK_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\ktpv\Dropbox\Game\Defendroid360\StarWars\SASK_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\ktpv\Dropbox\Game\Defendroid360\StarWars\SASK_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\ktpv\Dropbox\Game\Defendroid360\StarWars\SASK_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\ktpv\Dropbox\Game\Defendroid360\StarWars\SASK_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\ktpv\Dropbox\Game\Defendroid360\StarWars\SASK_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\ktpv\Dropbox\Game\Defendroid360\StarWars\SASK_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\ktpv\Dropbox\Game\Defendroid360\StarWars\SASK_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.240 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Platform assembly: C:\Users\ktpv\Dropbox\Game\Defendroid360\StarWars\SASK_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\ktpv\Dropbox\Game\Defendroid360\StarWars\SASK_Data\Managed\UnityScript.Lang.dll (this message is harmless)
+Platform assembly: C:\Users\ktpv\Dropbox\Game\Defendroid360\StarWars\SASK_Data\Managed\Boo.Lang.dll (this message is harmless)
+UnloadTime: 1.692221 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 2022 unused Assets to reduce memory usage. Loaded Objects now: 230.
+Total: 8.476928 ms (FindLiveObjects: 0.098360 ms CreateObjectMapping: 0.041054 ms MarkObjects: 0.067996 ms  DeleteObjects: 7.873939 ms)
+
+Platform assembly: C:\Users\ktpv\Dropbox\Game\Defendroid360\StarWars\SASK_Data\Managed\System.dll (this message is harmless)
+UnloadTime: 0.555948 ms
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 5989.
+Total: 1.364639 ms (FindLiveObjects: 0.197147 ms CreateObjectMapping: 0.054739 ms MarkObjects: 0.634208 ms  DeleteObjects: 0.150106 ms)
+
+ZOOMED MUTHAFUCKA
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+

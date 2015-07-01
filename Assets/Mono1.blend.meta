@@ -1,0 +1,1038 @@
+fileFormatVersion: 2
+guid: 7c9f4f49c46cd45baa2689031917b305
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Bone
+    100004: Bone_001
+    100006: Bone_003
+    100008: Bone_004
+    100010: Bone_005
+    100012: Bone_006
+    100014: Cube
+    100016: Cube_001
+    100018: Cube_002
+    100020: Cube_003
+    100022: Cube_004
+    100024: Cylinder
+    100026: Cylinder_001
+    100028: Cylinder_002
+    100030: Cylinder_003
+    100032: Cylinder_004
+    100034: Cylinder_005
+    100036: Cylinder_006
+    100038: Cylinder_007
+    100040: Cylinder_008
+    100042: Cylinder_009
+    100044: Cylinder_010
+    100046: Cylinder_011
+    100048: //RootNode
+    100050: Sphere
+    100052: Sphere_001
+    100054: Sphere_002
+    100056: Sphere_003
+    100058: Sphere_004
+    100060: Sphere_005
+    100062: Sphere_008
+    100064: Sphere_009
+    100066: Sphere_012
+    100068: Sphere_013
+    100070: Sphere_014
+    100072: Sphere_015
+    100074: Sphere_016
+    100076: Sphere_017
+    100078: BackDoor
+    100080: Comp
+    100082: Compartment
+    100084: FrontDoor
+    100086: InCannon
+    100088: MidCannon
+    100090: OutCannon
+    100092: Prong1
+    100094: Prong2
+    100096: Rocket
+    100098: Rocket_0
+    100100: Sure
+    100102: ThrusterSpawn1
+    100104: ThrusterSpawn2
+    100106: ThrusterSpawn3
+    100108: ThrusterSpawn4
+    100110: Cylinder_012
+    100112: Sphere_006
+    100114: Sphere_007
+    100116: Cylinder_018
+    100118: Sat
+    100120: Plane
+    400000: Armature
+    400002: Bone
+    400004: Bone_001
+    400006: Bone_003
+    400008: Bone_004
+    400010: Bone_005
+    400012: Bone_006
+    400014: Cube
+    400016: Cube_001
+    400018: Cube_002
+    400020: Cube_003
+    400022: Cube_004
+    400024: Cylinder
+    400026: Cylinder_001
+    400028: Cylinder_002
+    400030: Cylinder_003
+    400032: Cylinder_004
+    400034: Cylinder_005
+    400036: Cylinder_006
+    400038: Cylinder_007
+    400040: Cylinder_008
+    400042: Cylinder_009
+    400044: Cylinder_010
+    400046: Cylinder_011
+    400048: //RootNode
+    400050: Sphere
+    400052: Sphere_001
+    400054: Sphere_002
+    400056: Sphere_003
+    400058: Sphere_004
+    400060: Sphere_005
+    400062: Sphere_008
+    400064: Sphere_009
+    400066: Sphere_012
+    400068: Sphere_013
+    400070: Sphere_014
+    400072: Sphere_015
+    400074: Sphere_016
+    400076: Sphere_017
+    400078: BackDoor
+    400080: Comp
+    400082: Compartment
+    400084: FrontDoor
+    400086: InCannon
+    400088: MidCannon
+    400090: OutCannon
+    400092: Prong1
+    400094: Prong2
+    400096: Rocket
+    400098: Rocket_0
+    400100: Sure
+    400102: ThrusterSpawn1
+    400104: ThrusterSpawn2
+    400106: ThrusterSpawn3
+    400108: ThrusterSpawn4
+    400110: Cylinder_012
+    400112: Sphere_006
+    400114: Sphere_007
+    400116: Cylinder_018
+    400118: Sat
+    400120: Plane
+    2300000: Cube
+    2300002: Cube_001
+    2300004: Cube_002
+    2300006: Cube_003
+    2300008: Cube_004
+    2300010: Cylinder
+    2300012: Cylinder_001
+    2300014: Cylinder_002
+    2300016: Cylinder_003
+    2300018: Cylinder_004
+    2300020: Cylinder_005
+    2300022: Cylinder_006
+    2300024: Cylinder_007
+    2300026: Cylinder_008
+    2300028: Cylinder_009
+    2300030: Cylinder_010
+    2300032: Sphere
+    2300034: Sphere_001
+    2300036: Sphere_002
+    2300038: Sphere_003
+    2300040: Sphere_004
+    2300042: Sphere_005
+    2300044: Sphere_008
+    2300046: Sphere_009
+    2300048: Sphere_012
+    2300050: Sphere_013
+    2300052: Sphere_014
+    2300054: Sphere_015
+    2300056: Sphere_016
+    2300058: Sphere_017
+    2300060: Cylinder_012
+    2300062: Sphere_006
+    2300064: Sphere_007
+    2300066: Plane
+    3300000: Cube
+    3300002: Cube_001
+    3300004: Cube_002
+    3300006: Cube_003
+    3300008: Cube_004
+    3300010: Cylinder
+    3300012: Cylinder_001
+    3300014: Cylinder_002
+    3300016: Cylinder_003
+    3300018: Cylinder_004
+    3300020: Cylinder_005
+    3300022: Cylinder_006
+    3300024: Cylinder_007
+    3300026: Cylinder_008
+    3300028: Cylinder_009
+    3300030: Cylinder_010
+    3300032: Sphere
+    3300034: Sphere_001
+    3300036: Sphere_002
+    3300038: Sphere_003
+    3300040: Sphere_004
+    3300042: Sphere_005
+    3300044: Sphere_008
+    3300046: Sphere_009
+    3300048: Sphere_012
+    3300050: Sphere_013
+    3300052: Sphere_014
+    3300054: Sphere_015
+    3300056: Sphere_016
+    3300058: Sphere_017
+    3300060: Cylinder_012
+    3300062: Sphere_006
+    3300064: Sphere_007
+    3300066: Plane
+    4300000: Cylinder_011
+    4300002: Cylinder_010
+    4300004: Cylinder_009
+    4300006: Cylinder
+    4300008: Cube_004
+    4300010: Cube_003
+    4300012: Cylinder_008
+    4300014: Cube_002
+    4300016: Cube_001
+    4300018: Cylinder_007
+    4300020: Sphere_017
+    4300022: Cylinder_006
+    4300024: Sphere_016
+    4300026: Sphere_015
+    4300028: Sphere_014
+    4300030: Sphere_013
+    4300032: Sphere_012
+    4300034: Sphere_009
+    4300036: Cylinder_005
+    4300038: Cylinder_004
+    4300040: Cylinder_003
+    4300042: Cylinder_002
+    4300044: Cube
+    4300046: Sphere_008
+    4300048: Sphere_005
+    4300050: Sphere_004
+    4300052: Sphere_003
+    4300054: Sphere_002
+    4300056: Sphere_001
+    4300058: Cylinder_001
+    4300060: Sphere
+    4300062: Comp
+    4300064: Rocket
+    4300066: Sphere_007
+    4300068: Sphere_006
+    4300070: Cylinder_012
+    4300072: Cylinder_018
+    4300074: Plane
+    7400000: Default Take
+    7400002: Open
+    7400004: Open0
+    7400006: Shoot
+    7400008: Reload
+    7400010: SatelliteLoad
+    7400012: Default Take0
+    7400014: Startup
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Cylinder_011
+    13700002: Comp
+    13700004: Cube_003
+    13700006: Cube_004
+    13700008: Cylinder
+    13700010: Cylinder_009
+    13700012: Cylinder_010
+    13700014: Rocket
+    13700016: Cylinder_018
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: -1
+      lastFrame: 179
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone_001
+        weight: 1
+      - path: Armature/Bone/Bone_001/Bone_003
+        weight: 1
+      - path: Armature/Bone/Bone_001/Bone_003/Bone_004
+        weight: 1
+      - path: Armature/Bone/Bone_001/Bone_005
+        weight: 1
+      - path: Armature/Bone/Bone_001/Bone_005/Bone_006
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Cube_001
+        weight: 1
+      - path: Cube_002
+        weight: 1
+      - path: Cube_003
+        weight: 1
+      - path: Cube_004
+        weight: 1
+      - path: Cylinder
+        weight: 1
+      - path: Cylinder_001
+        weight: 1
+      - path: Cylinder_002
+        weight: 1
+      - path: Cylinder_003
+        weight: 1
+      - path: Cylinder_004
+        weight: 1
+      - path: Cylinder_005
+        weight: 1
+      - path: Cylinder_006
+        weight: 1
+      - path: Cylinder_007
+        weight: 1
+      - path: Cylinder_008
+        weight: 1
+      - path: Cylinder_009
+        weight: 1
+      - path: Cylinder_010
+        weight: 1
+      - path: Cylinder_011
+        weight: 1
+      - path: Sphere
+        weight: 1
+      - path: Sphere_001
+        weight: 1
+      - path: Sphere_002
+        weight: 1
+      - path: Sphere_003
+        weight: 1
+      - path: Sphere_004
+        weight: 1
+      - path: Sphere_005
+        weight: 1
+      - path: Sphere_008
+        weight: 1
+      - path: Sphere_009
+        weight: 1
+      - path: Sphere_012
+        weight: 1
+      - path: Sphere_013
+        weight: 1
+      - path: Sphere_014
+        weight: 1
+      - path: Sphere_015
+        weight: 1
+      - path: Sphere_016
+        weight: 1
+      - path: Sphere_017
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Open
+      takeName: Open
+      firstFrame: -1
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone_001
+        weight: 1
+      - path: Armature/Bone/Bone_001/Bone_003
+        weight: 1
+      - path: Armature/Bone/Bone_001/Bone_003/Bone_004
+        weight: 1
+      - path: Armature/Bone/Bone_001/Bone_005
+        weight: 1
+      - path: Armature/Bone/Bone_001/Bone_005/Bone_006
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Cube_001
+        weight: 1
+      - path: Cube_002
+        weight: 1
+      - path: Cube_003
+        weight: 1
+      - path: Cube_004
+        weight: 1
+      - path: Cylinder
+        weight: 1
+      - path: Cylinder_001
+        weight: 1
+      - path: Cylinder_002
+        weight: 1
+      - path: Cylinder_003
+        weight: 1
+      - path: Cylinder_004
+        weight: 1
+      - path: Cylinder_005
+        weight: 1
+      - path: Cylinder_006
+        weight: 1
+      - path: Cylinder_007
+        weight: 1
+      - path: Cylinder_008
+        weight: 1
+      - path: Cylinder_009
+        weight: 1
+      - path: Cylinder_010
+        weight: 1
+      - path: Cylinder_011
+        weight: 1
+      - path: Sphere
+        weight: 1
+      - path: Sphere_001
+        weight: 1
+      - path: Sphere_002
+        weight: 1
+      - path: Sphere_003
+        weight: 1
+      - path: Sphere_004
+        weight: 1
+      - path: Sphere_005
+        weight: 1
+      - path: Sphere_008
+        weight: 1
+      - path: Sphere_009
+        weight: 1
+      - path: Sphere_012
+        weight: 1
+      - path: Sphere_013
+        weight: 1
+      - path: Sphere_014
+        weight: 1
+      - path: Sphere_015
+        weight: 1
+      - path: Sphere_016
+        weight: 1
+      - path: Sphere_017
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Reload
+      takeName: Reload
+      firstFrame: -1
+      lastFrame: 174
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/BackDoor
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone_001
+        weight: 1
+      - path: Armature/Bone/Bone_001/Bone_005
+        weight: 1
+      - path: Armature/Bone/Bone_001/Bone_005/Prong2
+        weight: 1
+      - path: Armature/Bone/Bone_001/Sure
+        weight: 1
+      - path: Armature/Bone/Bone_001/Sure/Prong1
+        weight: 1
+      - path: Armature/Compartment
+        weight: 1
+      - path: Armature/FrontDoor
+        weight: 1
+      - path: Armature/InCannon
+        weight: 1
+      - path: Armature/MidCannon
+        weight: 1
+      - path: Armature/OutCannon
+        weight: 1
+      - path: Armature/Rocket_0
+        weight: 1
+      - path: Comp
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Cube_001
+        weight: 1
+      - path: Cube_002
+        weight: 1
+      - path: Cube_003
+        weight: 1
+      - path: Cube_004
+        weight: 1
+      - path: Cylinder
+        weight: 1
+      - path: Cylinder_001
+        weight: 1
+      - path: Cylinder_002
+        weight: 1
+      - path: Cylinder_003
+        weight: 1
+      - path: Cylinder_004
+        weight: 1
+      - path: Cylinder_005
+        weight: 1
+      - path: Cylinder_006
+        weight: 1
+      - path: Cylinder_007
+        weight: 1
+      - path: Cylinder_008
+        weight: 1
+      - path: Cylinder_009
+        weight: 1
+      - path: Cylinder_010
+        weight: 1
+      - path: Cylinder_011
+        weight: 1
+      - path: Rocket
+        weight: 1
+      - path: Sphere
+        weight: 1
+      - path: Sphere_001
+        weight: 1
+      - path: Sphere_002
+        weight: 1
+      - path: Sphere_003
+        weight: 1
+      - path: Sphere_004
+        weight: 1
+      - path: Sphere_005
+        weight: 1
+      - path: Sphere_008
+        weight: 1
+      - path: Sphere_009
+        weight: 1
+      - path: Sphere_012
+        weight: 1
+      - path: Sphere_013
+        weight: 1
+      - path: Sphere_014
+        weight: 1
+      - path: Sphere_015
+        weight: 1
+      - path: Sphere_016
+        weight: 1
+      - path: Sphere_017
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Shoot
+      takeName: Shoot
+      firstFrame: -1
+      lastFrame: 69
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/BackDoor
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone_001
+        weight: 1
+      - path: Armature/Bone/Bone_001/Bone_005
+        weight: 1
+      - path: Armature/Bone/Bone_001/Bone_005/Prong2
+        weight: 1
+      - path: Armature/Bone/Bone_001/Sure
+        weight: 1
+      - path: Armature/Bone/Bone_001/Sure/Prong1
+        weight: 1
+      - path: Armature/Compartment
+        weight: 1
+      - path: Armature/FrontDoor
+        weight: 1
+      - path: Armature/InCannon
+        weight: 1
+      - path: Armature/MidCannon
+        weight: 1
+      - path: Armature/OutCannon
+        weight: 1
+      - path: Armature/Rocket_0
+        weight: 1
+      - path: Comp
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Cube_001
+        weight: 1
+      - path: Cube_002
+        weight: 1
+      - path: Cube_003
+        weight: 1
+      - path: Cube_004
+        weight: 1
+      - path: Cylinder
+        weight: 1
+      - path: Cylinder_001
+        weight: 1
+      - path: Cylinder_002
+        weight: 1
+      - path: Cylinder_003
+        weight: 1
+      - path: Cylinder_004
+        weight: 1
+      - path: Cylinder_005
+        weight: 1
+      - path: Cylinder_006
+        weight: 1
+      - path: Cylinder_007
+        weight: 1
+      - path: Cylinder_008
+        weight: 1
+      - path: Cylinder_009
+        weight: 1
+      - path: Cylinder_010
+        weight: 1
+      - path: Cylinder_011
+        weight: 1
+      - path: Rocket
+        weight: 1
+      - path: Sphere
+        weight: 1
+      - path: Sphere_001
+        weight: 1
+      - path: Sphere_002
+        weight: 1
+      - path: Sphere_003
+        weight: 1
+      - path: Sphere_004
+        weight: 1
+      - path: Sphere_005
+        weight: 1
+      - path: Sphere_008
+        weight: 1
+      - path: Sphere_009
+        weight: 1
+      - path: Sphere_012
+        weight: 1
+      - path: Sphere_013
+        weight: 1
+      - path: Sphere_014
+        weight: 1
+      - path: Sphere_015
+        weight: 1
+      - path: Sphere_016
+        weight: 1
+      - path: Sphere_017
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: SatelliteLoad
+      takeName: SatelliteLoad
+      firstFrame: -1
+      lastFrame: 159
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/BackDoor
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone_001
+        weight: 1
+      - path: Armature/Bone/Bone_001/Bone_005
+        weight: 1
+      - path: Armature/Bone/Bone_001/Bone_005/Prong2
+        weight: 1
+      - path: Armature/Bone/Bone_001/Sure
+        weight: 1
+      - path: Armature/Bone/Bone_001/Sure/Prong1
+        weight: 1
+      - path: Armature/Compartment
+        weight: 1
+      - path: Armature/FrontDoor
+        weight: 1
+      - path: Armature/InCannon
+        weight: 1
+      - path: Armature/MidCannon
+        weight: 1
+      - path: Armature/OutCannon
+        weight: 1
+      - path: Armature/Rocket_0
+        weight: 1
+      - path: Armature/Sat
+        weight: 1
+      - path: Comp
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Cube_001
+        weight: 1
+      - path: Cube_002
+        weight: 1
+      - path: Cube_003
+        weight: 1
+      - path: Cube_004
+        weight: 1
+      - path: Cylinder
+        weight: 1
+      - path: Cylinder_001
+        weight: 1
+      - path: Cylinder_002
+        weight: 1
+      - path: Cylinder_003
+        weight: 1
+      - path: Cylinder_004
+        weight: 1
+      - path: Cylinder_005
+        weight: 1
+      - path: Cylinder_006
+        weight: 1
+      - path: Cylinder_007
+        weight: 1
+      - path: Cylinder_008
+        weight: 1
+      - path: Cylinder_009
+        weight: 1
+      - path: Cylinder_010
+        weight: 1
+      - path: Cylinder_011
+        weight: 1
+      - path: Cylinder_012
+        weight: 1
+      - path: Cylinder_018
+        weight: 1
+      - path: Rocket
+        weight: 1
+      - path: Sphere
+        weight: 1
+      - path: Sphere_001
+        weight: 1
+      - path: Sphere_002
+        weight: 1
+      - path: Sphere_003
+        weight: 1
+      - path: Sphere_004
+        weight: 1
+      - path: Sphere_005
+        weight: 1
+      - path: Sphere_006
+        weight: 1
+      - path: Sphere_007
+        weight: 1
+      - path: Sphere_008
+        weight: 1
+      - path: Sphere_009
+        weight: 1
+      - path: Sphere_012
+        weight: 1
+      - path: Sphere_013
+        weight: 1
+      - path: Sphere_014
+        weight: 1
+      - path: Sphere_015
+        weight: 1
+      - path: Sphere_016
+        weight: 1
+      - path: Sphere_017
+        weight: 1
+      - path: ThrusterSpawn1
+        weight: 1
+      - path: ThrusterSpawn2
+        weight: 1
+      - path: ThrusterSpawn3
+        weight: 1
+      - path: ThrusterSpawn4
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Startup
+      takeName: Startup
+      firstFrame: -1
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/BackDoor
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone_001
+        weight: 1
+      - path: Armature/Bone/Bone_001/Bone_005
+        weight: 1
+      - path: Armature/Bone/Bone_001/Bone_005/Prong2
+        weight: 1
+      - path: Armature/Bone/Bone_001/Sure
+        weight: 1
+      - path: Armature/Bone/Bone_001/Sure/Prong1
+        weight: 1
+      - path: Armature/Compartment
+        weight: 1
+      - path: Armature/FrontDoor
+        weight: 1
+      - path: Armature/InCannon
+        weight: 1
+      - path: Armature/MidCannon
+        weight: 1
+      - path: Armature/OutCannon
+        weight: 1
+      - path: Armature/Rocket_0
+        weight: 1
+      - path: Armature/Sat
+        weight: 1
+      - path: Comp
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Cube_001
+        weight: 1
+      - path: Cube_002
+        weight: 1
+      - path: Cube_003
+        weight: 1
+      - path: Cube_004
+        weight: 1
+      - path: Cylinder
+        weight: 1
+      - path: Cylinder_001
+        weight: 1
+      - path: Cylinder_002
+        weight: 1
+      - path: Cylinder_003
+        weight: 1
+      - path: Cylinder_004
+        weight: 1
+      - path: Cylinder_005
+        weight: 1
+      - path: Cylinder_006
+        weight: 1
+      - path: Cylinder_007
+        weight: 1
+      - path: Cylinder_008
+        weight: 1
+      - path: Cylinder_009
+        weight: 1
+      - path: Cylinder_010
+        weight: 1
+      - path: Cylinder_011
+        weight: 1
+      - path: Cylinder_012
+        weight: 1
+      - path: Cylinder_018
+        weight: 1
+      - path: Rocket
+        weight: 1
+      - path: Sphere
+        weight: 1
+      - path: Sphere_001
+        weight: 1
+      - path: Sphere_002
+        weight: 1
+      - path: Sphere_003
+        weight: 1
+      - path: Sphere_004
+        weight: 1
+      - path: Sphere_005
+        weight: 1
+      - path: Sphere_006
+        weight: 1
+      - path: Sphere_007
+        weight: 1
+      - path: Sphere_008
+        weight: 1
+      - path: Sphere_009
+        weight: 1
+      - path: Sphere_012
+        weight: 1
+      - path: Sphere_013
+        weight: 1
+      - path: Sphere_014
+        weight: 1
+      - path: Sphere_015
+        weight: 1
+      - path: Sphere_016
+        weight: 1
+      - path: Sphere_017
+        weight: 1
+      - path: ThrusterSpawn1
+        weight: 1
+      - path: ThrusterSpawn2
+        weight: 1
+      - path: ThrusterSpawn3
+        weight: 1
+      - path: ThrusterSpawn4
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 0
+    splitTangentsAcrossUV: 1
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
