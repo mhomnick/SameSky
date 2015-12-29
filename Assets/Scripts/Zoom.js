@@ -73,12 +73,15 @@ function Update(){
    			transform.position.z = Mathf.Clamp(transform.position.z, minZoom, maxZoom);
    			if (transform.position.z > 1.2){
    				lookAt.transform.rotation = Quaternion.Lerp(lookAt.transform.rotation,to.rotation,Time.deltaTime * tiltSpeed);
+   				lookAt.transform.position.y = Mathf.Lerp(lookAt.transform.position.y, 2.22, Time.deltaTime * tiltSpeed);
    			}
-  			if ((transform.position.z < 1.2) && (transform.position.z > .6)){ 
+  			if ((transform.position.z < 1.2) && (transform.position.z > -.5)){ 
    				lookAt.transform.rotation = Quaternion.Lerp(lookAt.transform.rotation,start.rotation,Time.deltaTime * tiltSpeed);
+   				lookAt.transform.position.y = Mathf.Lerp(lookAt.transform.position.y, 2.5, Time.deltaTime * tiltSpeed);
    			}
-   			if (transform.position.z < .6){
+   			if (transform.position.z < -.5){
    				lookAt.transform.rotation = Quaternion.Lerp(lookAt.transform.rotation,zoomed.rotation,Time.deltaTime * tiltSpeed);
+   				lookAt.transform.position.y = Mathf.Lerp(lookAt.transform.position.y, 2.22, Time.deltaTime * tiltSpeed);
    			}
    		}
    	}
