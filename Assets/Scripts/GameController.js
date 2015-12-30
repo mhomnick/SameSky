@@ -632,7 +632,7 @@ function Update () {  //can certain keys be activeated as an event and not have 
 	/////////////////////////////////////////////	
 				
 		//CITY 1
-		
+	/*	
 	if ((city1TechsResearched >= 3) && (city1TechsResearched < 6)){
 		//play build up to level 1 animation
 		if (!isPaused){
@@ -668,7 +668,7 @@ function Update () {  //can certain keys be activeated as an event and not have 
             city1.GetComponent.<Animation>().Play("Building4");
             city1.GetComponent.<Animation>()["Building4"].speed = .75;
 		}
-	}
+	}*/
 
 	if (Input.GetButtonDown ("Fire1") && (!BuildingControl.isZoomed)) {
 		if (Time.timeScale == 1.0){
@@ -680,167 +680,155 @@ function Update () {  //can certain keys be activeated as an event and not have 
 		}
 	}
 		
-	if (!BuildingControl.isZoomed){
-        if ((Input.GetKeyDown("space")) && (missiles > 0 && CannonControl.isMissile == true) && (missileTimer == 0.0)) {
-            Instantiate(missileShot, missileSpawn.position, missileSpawn.rotation);
-            MissileShootAudio.Play();
-        
-            missiles --;
-             
-            monorail.GetComponent.<Animation>()["Shoot"].speed = 2;
-            monorail.GetComponent.<Animation>()["Open"].speed = .5;
-            monorail.GetComponent.<Animation>()["Reload"].speed = reloadSpeed;
-            monorail.GetComponent.<Animation>().Stop("Reload");
-            monorail.GetComponent.<Animation>().Play("Reload");
-            //monorail.animation.CrossFadeQueued("Reload",.2,QueueMode.CompleteOthers);
-             
-            missileTimer = missileTimerMax;
+    if(Input.GetKeyDown("space")){
+    	if (!BuildingControl.isZoomed){
+            if ((missiles > 0 && CannonControl.isMissile == true) && (missileTimer == 0.0)) {
+                Instantiate(missileShot, missileSpawn.position, missileSpawn.rotation);
+                MissileShootAudio.Play();
+            
+                missiles --;
+                 
+                monorail.GetComponent.<Animation>()["Shoot"].speed = 2;
+                monorail.GetComponent.<Animation>()["Open"].speed = .5;
+                monorail.GetComponent.<Animation>()["Reload"].speed = reloadSpeed;
+                monorail.GetComponent.<Animation>().Stop("Reload");
+                monorail.GetComponent.<Animation>().Play("Reload");
+                //monorail.animation.CrossFadeQueued("Reload",.2,QueueMode.CompleteOthers);
+                 
+                missileTimer = missileTimerMax;
+            }
+            if ((singularityMissileCount > 0 && CannonControl.isMissile2 == true) && (missileTimer == 0.0))     {
+     
+                Instantiate(singularityMissile, missileSpawn.position, missileSpawn.rotation);
+                MissileShootAudio.Play();
+                
+                singularityMissileCount --;
+                
+                monorail.GetComponent.<Animation>()["Shoot"].speed = 2;
+                monorail.GetComponent.<Animation>()["Open"].speed = .5;
+                monorail.GetComponent.<Animation>()["Reload"].speed = reloadSpeed;
+                monorail.GetComponent.<Animation>().Stop("Reload");
+                monorail.GetComponent.<Animation>().Play("Reload");
+                //monorail.animation.CrossFadeQueued("Reload",.2,QueueMode.CompleteOthers);
+                
+                missileTimer = missileTimerMax;
+            }
         }
-        if ((Input.GetKeyDown("space")) && (singularityMissileCount > 0 && CannonControl.isMissile2 == true) && (missileTimer == 0.0))     {
- 
-            Instantiate(singularityMissile, missileSpawn.position, missileSpawn.rotation);
+    	
+    	// New satellite launching
+    	if ((CannonControl.isSatellite == true) && (satelliteTimer == 0.0) && (DestroyByContact.money >= satelliteCost) && (canLaunch)){
+            //create new satellite
+            var newSatellite = Instantiate(satelliteShot, satelliteSpawn.position, satelliteSpawn.rotation);
+            newSatellite.name = "Satellite" + nextSatelliteNumber;
+            nextSatelliteNumber += 1;
+            DestroyByContact.money -= satelliteCost;
+            satelliteTimer = satelliteTimerMax;
             MissileShootAudio.Play();
-            
-            singularityMissileCount --;
-            
-            monorail.GetComponent.<Animation>()["Shoot"].speed = 2;
-            monorail.GetComponent.<Animation>()["Open"].speed = .5;
-            monorail.GetComponent.<Animation>()["Reload"].speed = reloadSpeed;
-            monorail.GetComponent.<Animation>().Stop("Reload");
-            monorail.GetComponent.<Animation>().Play("Reload");
-            //monorail.animation.CrossFadeQueued("Reload",.2,QueueMode.CompleteOthers);
-            
-            missileTimer = missileTimerMax;
-        }
+            activeSatellites += 1;
+
+        //Cannot create satellite
+    	} else {
+    	   NoSatelliteAudio.Play();
+    	}
+    	
+    	//Mining satellites
+    	
+    	if ((CannonControl.isSatellite2 == true) && (satelliteTimer == 0.0) && (DestroyByContact.money >= captureSatelliteCost)){
+           var newCaptureSatellite = Instantiate(captureSat, satelliteSpawn.position, satelliteSpawn.rotation);
+                 
+            newCaptureSatellite.name = "CaptureSatellite" + nextSatelliteNumber;
+            nextSatelliteNumber += 1;
+            //monorail.animation.Play("SatelliteLoad");
+            DestroyByContact.money -= captureSatelliteCost;
+            satelliteTimer = satelliteTimerMax;
+            MissileShootAudio.Play();
+            //activeSatellites += 1;
+    	}
+    	
+    	//Thruster add on
+    	
+    	if ((CannonControl.isAddOn == true) && (satelliteTimer == 0.0) && (modules > 0)){  
+           var newThrusterSatellite = Instantiate(thrusterAddOnSat, satelliteSpawn.position, satelliteSpawn.rotation);
+                 
+            newThrusterSatellite.name = "ThrusterSatellite" + nextSatelliteNumber;
+            nextSatelliteNumber += 1;
+            //monorail.animation.Play("SatelliteLoad");
+            modules -= 1;
+            satelliteTimer = satelliteTimerMax;
+            MissileShootAudio.Play();
+            //activeSatellites += 1;
+    	}
+    	
+    	//Size add on
+    	
+    	if ((CannonControl.isAddOn2 == true) && (satelliteTimer == 0.0) && (modules > 0)){   
+           var newSizeSatellite = Instantiate(sizeAddOnSat, satelliteSpawn.position, satelliteSpawn.rotation);
+                 
+            newSizeSatellite.name = "SizeSatellite" + nextSatelliteNumber;
+            nextSatelliteNumber += 1;
+            //monorail.animation.Play("SatelliteLoad");
+            modules -= 1;
+            satelliteTimer = satelliteTimerMax;
+            MissileShootAudio.Play();
+            //activeSatellites += 1;
+    	}
+    	
+    	//Mining add on
+    	
+    	if ((CannonControl.isAddOn3 == true) && (satelliteTimer == 0.0) && (modules > 0)){
+           var newMiningSatellite = Instantiate(miningAddOnSat, satelliteSpawn.position, satelliteSpawn.rotation);
+                 
+            newMiningSatellite.name = "MiningSatellite" + nextSatelliteNumber;
+            nextSatelliteNumber += 1;
+            //monorail.animation.Play("SatelliteLoad");
+            modules -= 1;
+            satelliteTimer = satelliteTimerMax;
+            MissileShootAudio.Play();
+            //activeSatellites += 1;
+    	}
+    	
+    	//Shield add on
+    	
+    	if ((CannonControl.isAddOn4 == true) && (satelliteTimer == 0.0) && (modules > 0)){      
+           var newShieldSatellite = Instantiate(shieldAddOnSat, satelliteSpawn.position, satelliteSpawn.rotation);
+                 
+            newShieldSatellite.name = "ShieldSatellite" + nextSatelliteNumber;
+            nextSatelliteNumber += 1;
+            //monorail.animation.Play("SatelliteLoad");
+            modules -= 1;
+            satelliteTimer = satelliteTimerMax;
+            MissileShootAudio.Play();
+            //activeSatellites += 1;
+    	}
+    	
+    	//Laser add on
+    	
+    	if ((CannonControl.isAddOn5 == true) && (satelliteTimer == 0.0) && (modules > 0)){      
+           var newLaserSatellite = Instantiate(laserAddOnSat, satelliteSpawn.position, satelliteSpawn.rotation);
+                 
+            newLaserSatellite.name = "LaserSatellite" + nextSatelliteNumber;
+            nextSatelliteNumber += 1;
+            //monorail.animation.Play("SatelliteLoad");
+            modules -= 1;
+            satelliteTimer = satelliteTimerMax;
+            MissileShootAudio.Play();
+            //activeSatellites += 1;
+    	}
+    	
+    	//Redirect satellites
+    	
+    	if ((CannonControl.isSatellite3 == true) && (satelliteTimer == 0.0) && (DestroyByContact.money >= redirectSatelliteCost)){      
+           var newRedirectSatellite = Instantiate(redirectSatellite, satelliteSpawn.position, satelliteSpawn.rotation);
+                 
+            newRedirectSatellite.name = "RedirectSatellite" + nextSatelliteNumber;
+            nextSatelliteNumber += 1;
+            //monorail.animation.Play("SatelliteLoad");
+            DestroyByContact.money -= redirectSatelliteCost;
+            satelliteTimer = satelliteTimerMax;
+            MissileShootAudio.Play();
+            //activeSatellites += 1;
+    	}
     }
-	
-	// New satellite launching
-	if ((Input.GetKeyDown("space")) && (CannonControl.isSatellite == true) && (satelliteTimer == 0.0) && (DestroyByContact.money >= satelliteCost) && (canLaunch)){
-       
-       var newSatellite = Instantiate(satelliteShot, satelliteSpawn.position, satelliteSpawn.rotation);
-       
-       if (SatelliteShootNew.lowerSatZone){
-       Instantiate(guideToDestroy, realGuide.transform.position, realGuide.transform.rotation);
-       }      
-             newSatellite.name = "Satellite" + nextSatelliteNumber;
-             nextSatelliteNumber += 1;
-             //monorail.animation.Play("SatelliteLoad");
-             DestroyByContact.money -= satelliteCost;
-             satelliteTimer = satelliteTimerMax;
-             MissileShootAudio.Play();
-             activeSatellites += 1;
-	
-	}
-	
-	if ((Input.GetKeyDown("space")) && (CannonControl.isSatellite == true) && (satelliteTimer == 0.0) && (DestroyByContact.money >= satelliteCost) && (!canLaunch)){
-	   NoSatelliteAudio.Play();
-	}
-	
-	if ((Input.GetKeyDown("space")) && (CannonControl.isSatellite == true) && (satelliteTimer == 0.0) && (DestroyByContact.money < satelliteCost)){
-	   NoSatelliteAudio.Play();
-	}
-	
-	if ((Input.GetKeyDown("space")) && (CannonControl.isSatellite == true) && (satelliteTimer == 0.0) && (DestroyByContact.money < satelliteCost) && (!canLaunch)){
-	   NoSatelliteAudio.Play();
-	}
-	
-	//Mining satellites
-	
-	if ((Input.GetKeyDown("space")) && (CannonControl.isSatellite2 == true) && (satelliteTimer == 0.0) && (DestroyByContact.money >= captureSatelliteCost)){
-       var newCaptureSatellite = Instantiate(captureSat, satelliteSpawn.position, satelliteSpawn.rotation);
-             
-        newCaptureSatellite.name = "CaptureSatellite" + nextSatelliteNumber;
-        nextSatelliteNumber += 1;
-        //monorail.animation.Play("SatelliteLoad");
-        DestroyByContact.money -= captureSatelliteCost;
-        satelliteTimer = satelliteTimerMax;
-        MissileShootAudio.Play();
-        //activeSatellites += 1;
-	}
-	
-	//Thruster add on
-	
-	if ((Input.GetKeyDown("space")) && (CannonControl.isAddOn == true) && (satelliteTimer == 0.0) && (modules > 0)){  
-       var newThrusterSatellite = Instantiate(thrusterAddOnSat, satelliteSpawn.position, satelliteSpawn.rotation);
-             
-        newThrusterSatellite.name = "ThrusterSatellite" + nextSatelliteNumber;
-        nextSatelliteNumber += 1;
-        //monorail.animation.Play("SatelliteLoad");
-        modules -= 1;
-        satelliteTimer = satelliteTimerMax;
-        MissileShootAudio.Play();
-        //activeSatellites += 1;
-	}
-	
-	//Size add on
-	
-	if ((Input.GetKeyDown("space")) && (CannonControl.isAddOn2 == true) && (satelliteTimer == 0.0) && (modules > 0)){   
-       var newSizeSatellite = Instantiate(sizeAddOnSat, satelliteSpawn.position, satelliteSpawn.rotation);
-             
-        newSizeSatellite.name = "SizeSatellite" + nextSatelliteNumber;
-        nextSatelliteNumber += 1;
-        //monorail.animation.Play("SatelliteLoad");
-        modules -= 1;
-        satelliteTimer = satelliteTimerMax;
-        MissileShootAudio.Play();
-        //activeSatellites += 1;
-	}
-	
-	//Mining add on
-	
-	if ((Input.GetKeyDown("space")) && (CannonControl.isAddOn3 == true) && (satelliteTimer == 0.0) && (modules > 0)){
-       var newMiningSatellite = Instantiate(miningAddOnSat, satelliteSpawn.position, satelliteSpawn.rotation);
-             
-        newMiningSatellite.name = "MiningSatellite" + nextSatelliteNumber;
-        nextSatelliteNumber += 1;
-        //monorail.animation.Play("SatelliteLoad");
-        modules -= 1;
-        satelliteTimer = satelliteTimerMax;
-        MissileShootAudio.Play();
-        //activeSatellites += 1;
-	}
-	
-	//Shield add on
-	
-	if ((Input.GetKeyDown("space")) && (CannonControl.isAddOn4 == true) && (satelliteTimer == 0.0) && (modules > 0)){      
-       var newShieldSatellite = Instantiate(shieldAddOnSat, satelliteSpawn.position, satelliteSpawn.rotation);
-             
-        newShieldSatellite.name = "ShieldSatellite" + nextSatelliteNumber;
-        nextSatelliteNumber += 1;
-        //monorail.animation.Play("SatelliteLoad");
-        modules -= 1;
-        satelliteTimer = satelliteTimerMax;
-        MissileShootAudio.Play();
-        //activeSatellites += 1;
-	}
-	
-	//Laser add on
-	
-	if ((Input.GetKeyDown("space")) && (CannonControl.isAddOn5 == true) && (satelliteTimer == 0.0) && (modules > 0)){      
-       var newLaserSatellite = Instantiate(laserAddOnSat, satelliteSpawn.position, satelliteSpawn.rotation);
-             
-        newLaserSatellite.name = "LaserSatellite" + nextSatelliteNumber;
-        nextSatelliteNumber += 1;
-        //monorail.animation.Play("SatelliteLoad");
-        modules -= 1;
-        satelliteTimer = satelliteTimerMax;
-        MissileShootAudio.Play();
-        //activeSatellites += 1;
-	}
-	
-	//Redirect satellites
-	
-	if ((Input.GetKeyDown("space")) && (CannonControl.isSatellite3 == true) && (satelliteTimer == 0.0) && (DestroyByContact.money >= redirectSatelliteCost)){      
-       var newRedirectSatellite = Instantiate(redirectSatellite, satelliteSpawn.position, satelliteSpawn.rotation);
-             
-        newRedirectSatellite.name = "RedirectSatellite" + nextSatelliteNumber;
-        nextSatelliteNumber += 1;
-        //monorail.animation.Play("SatelliteLoad");
-        DestroyByContact.money -= redirectSatelliteCost;
-        satelliteTimer = satelliteTimerMax;
-        MissileShootAudio.Play();
-        //activeSatellites += 1;
-	}
 	
 	
 	
@@ -857,33 +845,11 @@ function Update () {  //can certain keys be activeated as an event and not have 
 	   satelliteTimer = 0;
 	}
 
-	/****replace next 20ish lines?
-
-    function onSatelliteChange () {   //is there a way to detect change in satellite numbers? Then we can take this out of update as well.
-        if(activeSatellites/5 == 1)
-            satelliteCost += 25;
-        else
-            satelliteCost += ((activeSatellites/5)*50);      //integer division
-    }
-    */
-	if (activeSatellites > 5){
-	   satelliteCost = 125;
-	}
-	if (activeSatellites > 10){
-	   satelliteCost = 175;
-	}
-	if (activeSatellites > 15){
-	   satelliteCost = 225;
-	}
-	if (activeSatellites > 20){
-	   satelliteCost = 275;
-	}
-	if (activeSatellites > 25){
-	   satelliteCost = 325;
-	}
-	if (activeSatellites > 30){
-	   satelliteCost = 375;
-	}
+    if(activeSatellites/5 == 1)
+        satelliteCost += 25;
+    else
+        satelliteCost += ((activeSatellites/5)*50);      //integer division
+    
 	if (AtmoHealth.atmoHealth <= 0){
 	   GameOver();
 	}
