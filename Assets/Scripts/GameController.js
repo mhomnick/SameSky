@@ -149,7 +149,7 @@ public static var city1Build4 : boolean = false;
 var contrastPlane : GameObject;
 public static var asteroidRedirect : boolean = false;
 
-public static var singularityMissiles : boolean = false;
+public static var singularityMissiles : boolean = true;
 public static var singularityMissileCount : int = 0;
 
 public static var labTime : boolean = false;
@@ -179,6 +179,8 @@ var progressBar1 : UnityEngine.UI.Image;
 var jellyWaitTime : int;
 var tankWaitTime : int;
 var spiderWaitTime : int;
+
+
 
 /*function MissileStart(){
 if ((!isPaused) && (missiles < missileCap)){
@@ -696,6 +698,8 @@ function Update () {  //can certain keys be activeated as an event and not have 
              
             missileTimer = missileTimerMax;
         }
+        
+        //singularity missiles
         if ((Input.GetKeyDown("space")) && (singularityMissileCount > 0 && CannonControl.isMissile2 == true) && (missileTimer == 0.0))     {
  
             Instantiate(singularityMissile, missileSpawn.position, missileSpawn.rotation);
